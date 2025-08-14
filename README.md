@@ -35,6 +35,16 @@ Vibe Coding時應該不用再去關心代碼內容，而更應該注重是否了
 在商業應用的時候，能夠快速完成原型的交付（功能確認），但很難完成最後的代碼交付。
 對個人應用來說，可以無腦完成個人用或者一次性用的程式。可以輔助開發個人程度可上線的內容。
 
+#### 🌐 Web 開發
+
+📄 **[Web Development Guide](docs/web-development.md)** - Web開發語言選擇指南 - 前端/後端技術對比、JavaScript/TypeScript/Python/PHP/Node.js 優劣分析、AI 時代的Web開發語言選擇策略
+
+📄 **[Web Deployment Guide](docs/web-deployment-guide.md)** - CSR vs 傳統HTML開發指南 - 客戶端渲染 (CSR) 與傳統HTML比較、React vs Vue vs Svelte 框架分析、現代Web開發技術選擇策略
+
+📄 **[Web Applications Guide](docs/web-applications.md)** - Web應用實作指南 - 圖像處理、數據可視化、企業級應用、SPA/SSR/SSG架構選擇、AI時代的Web應用開發策略
+
+📄 **[JavaScript Animation Libraries Guide](docs/js-animation-libraries.md)** - JavaScript動畫庫完全指南 - GSAP/Anime.js/Three.js/React動畫庫全面對比、通用型vs框架型動畫方案、現代網頁動態表現技術選擇策略
+
 #### 📱 移動開發
 
 📄 **[Mobile Development Guide](docs/mobile-development.md)** - 移動開發語言選擇指南 - 原生 vs 跨平台開發對比、Kotlin/Swift/React Native/Flutter 優劣分析、AI 時代的移動應用開發策略
@@ -50,16 +60,6 @@ Vibe Coding時應該不用再去關心代碼內容，而更應該注重是否了
 #### 💎 通用程式語言
 
 📄 **[General Programming Guide](docs/general-programming.md)** - 通用程式語言分析 - Ruby/Java 在 AI 時代的定位、為什麼個人開發者應選擇專門化工具、企業級與個人開發的技術選型差異
-
-#### 🌐 Web 開發
-
-📄 **[Web Development Guide](docs/web-development.md)** - Web開發語言選擇指南 - 前端/後端技術對比、JavaScript/TypeScript/Python/PHP/Node.js 優劣分析、AI 時代的Web開發語言選擇策略
-
-📄 **[Web Deployment Guide](docs/web-deployment-guide.md)** - CSR vs 傳統HTML開發指南 - 客戶端渲染 (CSR) 與傳統HTML比較、React vs Vue vs Svelte 框架分析、現代Web開發技術選擇策略
-
-📄 **[Web Applications Guide](docs/web-applications.md)** - Web應用實作指南 - 圖像處理、數據可視化、企業級應用、SPA/SSR/SSG架構選擇、AI時代的Web應用開發策略
-
-📄 **[JavaScript Animation Libraries Guide](docs/js-animation-libraries.md)** - JavaScript動畫庫完全指南 - GSAP/Anime.js/Three.js/React動畫庫全面對比、通用型vs框架型動畫方案、現代網頁動態表現技術選擇策略
 
 #### 🗄️ 資料庫、RAG
 
