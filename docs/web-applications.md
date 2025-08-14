@@ -2,6 +2,191 @@
 
 現代Web應用的技術選擇不再是單純的語言偏好，而是基於具體功能需求和用戶體驗的戰略決策。在AI輔助編程時代，理解不同應用類型的最佳技術實踐，比掌握單一技術更重要。
 
+## 🏠 個人網站與部落格
+
+### Astro + Markdown + Static Site Generation
+
+**代表應用：** Ghost、Medium、個人技術部落格、作品集網站
+
+個人部落格和作品集網站的關鍵需求是**極快的載入速度**和**優秀的SEO表現**。**Astro**是專為內容網站設計的現代靜態網站生成器，它能將網站編譯成純HTML，載入速度媲美原生網頁，同時保持現代開發體驗。
+
+<details>
+<summary>📝 靜態網站生成器技術選項</summary>
+
+- **Astro** - 內容優先的靜態網站生成器，支持多框架組件
+- **Next.js Static Export** - React生態的靜態網站方案
+- **Nuxt.js Static Generation** - Vue.js靜態網站生成
+- **Gatsby** - 基於React和GraphQL的靜態網站生成器
+- **Hugo** - 極速的Go語言靜態網站生成器
+- **Jekyll** - GitHub Pages原生支持的Ruby靜態生成器
+- **11ty (Eleventy)** - 靈活的JavaScript靜態網站生成器
+
+</details>
+
+<details>
+<summary>✍️ 內容管理技術選項</summary>
+
+- **Markdown + MDX** - 程式員友好的內容撰寫格式
+- **Contentful** - Headless CMS雲端內容管理
+- **Sanity** - 可客製化的Headless CMS
+- **Strapi** - 開源的Headless CMS
+- **Ghost** - 專為部落格設計的內容管理系統
+- **Notion API** - 將Notion當作CMS使用
+- **Obsidian Publish** - 筆記軟體的發布功能
+
+</details>
+
+**選擇這個技術組合的原因：** Astro能讓你用熟悉的前端技術（React、Vue、Svelte）開發組件，但最終輸出為靜態HTML，實現最佳性能。Markdown讓內容創作專注於寫作本身，不被複雜的編輯器干擾。靜態網站可以免費部署到GitHub Pages、Netlify或Vercel，維護成本幾乎為零。
+
+## 📡 RSS聚合與內容訂閱
+
+### Node.js + RSS Parser + MongoDB + Push Notifications
+
+**代表應用：** Feedly、Inoreader、NetNewsWire、個人RSS閱讀器
+
+RSS聚合器需要**定期抓取多個RSS源**、**去重和分類文章**、**推送新內容通知**。核心技術是**RSS解析庫**處理不同格式的RSS/Atom feeds，**定時任務**管理抓取週期，**推送通知**即時告知用戶新內容。
+
+<details>
+<summary>📰 RSS處理技術選項</summary>
+
+- **Node.js + rss-parser** - 強大的RSS/Atom解析庫
+- **Python + feedparser** - 成熟的RSS解析和處理
+- **Go + gofeed** - 高性能的RSS解析器
+- **RSS to JSON API** - 第三方RSS轉換服務
+- **Mercury Parser** - 全文內容提取和清理
+- **Readability API** - 文章正文提取算法
+
+</details>
+
+<details>
+<summary>📱 前端閱讀體驗技術選項</summary>
+
+- **React + Virtualization** - 大量文章列表的高效渲染
+- **Vue.js + Virtual Scroller** - 流暢的無限滾動體驗
+- **PWA + Service Worker** - 離線閱讀和背景同步
+- **Web Push Notifications** - 新文章的即時推送
+- **Reading Mode CSS** - 優化的閱讀排版和夜間模式
+- **Swipe Gestures** - 行動裝置的手勢操作
+
+</details>
+
+<details>
+<summary>⚡ 資料處理技術選項</summary>
+
+- **Node-cron + Bull Queue** - 定時RSS抓取和任務佇列
+- **MongoDB** - 彈性的文章和訂閱源儲存
+- **Redis** - 文章去重和讀取狀態快取
+- **Elasticsearch** - 全文搜索和文章分類
+- **Web Workers** - 大量RSS解析的背景處理
+- **Puppeteer** - 處理需要JavaScript的RSS源
+
+</details>
+
+**選擇這個技術組合的原因：** RSS聚合器的挑戰在於處理各種格式不一致的RSS源，以及高效地管理大量文章數據。Node.js的rss-parser庫能優雅處理各種RSS格式，MongoDB的靈活schema適合儲存結構不定的文章內容。定時抓取配合推送通知，讓用戶能第一時間獲得感興趣的內容更新。
+
+## 💰 個人記帳與財務管理
+
+### Vue.js + Chart.js + SQLite + Electron
+
+**代表應用：** Mint、YNAB、Personal Capital、自製記帳軟體
+
+個人財務管理應用需要**簡潔的記帳介面**、**清晰的圖表分析**、**資料安全保護**。使用**SQLite**本地儲存確保財務資料隱私，**Chart.js**製作直觀的消費分析圖表，**Electron**打包成桌面應用方便日常使用。
+
+<details>
+<summary>📊 財務圖表技術選項</summary>
+
+- **Chart.js** - 簡單易用的圖表庫，適合財務數據展示
+- **D3.js** - 高度客製化的圖表和數據視覺化
+- **ApexCharts** - 現代化的互動式圖表庫
+- **Recharts** - React生態的組合式圖表庫
+- **Vue-ChartJS** - Vue.js的Chart.js封裝
+- **Plotly.js** - 專業級的數據分析圖表
+
+</details>
+
+<details>
+<summary>💾 資料儲存技術選項</summary>
+
+- **SQLite** - 本地儲存，保護財務隱私
+- **IndexedDB** - 瀏覽器原生的客戶端資料庫
+- **PouchDB** - 離線優先的文檔資料庫
+- **Dexie.js** - IndexedDB的友善封裝
+- **RxDB** - 離線優先的即時資料庫
+- **Supabase Local** - 本地開發的後端服務
+
+</details>
+
+**選擇這個技術組合的原因：** 財務資料的隱私性至關重要，SQLite本地儲存確保敏感資訊不會上傳到雲端。Vue.js的響應式特性讓記帳操作流暢直觀，Chart.js能快速生成清晰的消費趨勢圖表。Electron讓Web技術開發的應用能在桌面運行，方便日常記帳操作。
+
+## 📚 個人知識管理系統
+
+### Next.js + MDX + Fuse.js + GitHub
+
+**代表應用：** Notion個人版、Obsidian、Roam Research、個人Wiki
+
+知識管理系統需要**雙向連結**、**全文搜索**、**標籤分類**、**版本控制**。使用**MDX**讓筆記支援互動組件，**Fuse.js**實現模糊搜索，**GitHub**作為版本控制和備份，**Next.js**提供現代化的瀏覽體驗。
+
+<details>
+<summary>🔍 搜索技術選項</summary>
+
+- **Fuse.js** - 輕量級的模糊搜索庫
+- **FlexSearch** - 高性能的全文搜索引擎
+- **Lunr.js** - 瀏覽器端的搜索引擎
+- **Algolia** - 雲端搜索服務（付費）
+- **MiniSearch** - 輕量的JavaScript搜索引擎
+- **Mark.js** - 搜索結果高亮顯示
+
+</details>
+
+<details>
+<summary>🔗 連結管理技術選項</summary>
+
+- **Remark/Rehype** - Markdown處理和雙向連結解析
+- **MDX** - 支援React組件的Markdown
+- **Unified.js** - 內容處理的插件生態系統
+- **Gatsby Graph** - GraphQL驅動的內容查詢
+- **Contentlayer** - 內容層抽象和類型安全
+- **Gray-matter** - Front matter解析
+
+</details>
+
+**選擇這個技術組合的原因：** MDX結合了Markdown的簡潔性和React組件的互動性，讓知識筆記不只是靜態文字。Fuse.js的模糊搜索能快速找到相關內容，GitHub的版本控制保護寶貴的知識資料。Next.js的快速刷新讓筆記編輯體驗如同桌面應用般流暢。
+
+## 🎨 個人作品集展示
+
+### Svelte + Three.js + Netlify CMS + GitHub Pages
+
+**代表應用：** 設計師作品集、攝影師網站、開發者展示頁面
+
+作品集網站需要**視覺衝擊力**和**互動體驗**來展示創意作品。**Svelte**提供輕量高效的組件化開發，**Three.js**創造吸引人的3D視覺效果，**Netlify CMS**讓非技術用戶也能輕鬆更新作品內容。
+
+<details>
+<summary>🎭 視覺展示技術選項</summary>
+
+- **Three.js** - 3D圖形和互動動畫
+- **GSAP** - 專業級的動畫效果庫
+- **Lottie** - After Effects動畫在網頁中播放
+- **Framer Motion** - React生態的動畫庫
+- **CSS Grid + Flexbox** - 響應式的作品網格佈局
+- **Intersection Observer** - 滾動觸發的動畫效果
+- **WebGL Shaders** - 自定義的視覺特效
+
+</details>
+
+<details>
+<summary>🖼️ 媒體處理技術選項</summary>
+
+- **Next.js Image Optimization** - 自動圖片優化和Lazy Loading
+- **Cloudinary** - 雲端圖片處理和CDN
+- **Sharp** - 高效能的圖片格式轉換
+- **WebP/AVIF** - 現代化的圖片壓縮格式
+- **Video.js** - 跨瀏覽器的影片播放器
+- **YouTube/Vimeo Embed** - 第三方影片平台整合
+
+</details>
+
+**選擇這個技術組合的原因：** Svelte的編譯時優化讓作品集網站載入極快，Three.js的3D效果能讓作品展示更有創意和互動性。Netlify CMS提供了友善的內容管理界面，讓創作者能專注於作品本身而非技術細節。GitHub Pages的免費託管配合自動部署，讓作品集維護變得毫不費力。
+
 ## 📸 線上圖像編輯應用
 
 ### Canvas API + WebGL + Node.js
@@ -175,6 +360,123 @@
 </details>
 
 **選擇這個技術組合的原因：** 協作編輯的核心挑戰不在於界面，而在於如何優雅地處理多人同時編輯時的衝突。Operational Transform算法經過Google Docs多年驗證，是目前最成熟的解決方案。Socket.io提供了可靠的即時通訊和自動重連機制。MongoDB的文檔儲存模式天然適合處理非結構化的編輯內容和變更記錄。
+
+## 🏠 個人網站與部落格
+
+### Astro + Markdown + Static Site Generation
+
+**代表應用：** Ghost、Medium、個人技術部落格、作品集網站
+
+個人部落格和作品集網站的關鍵需求是**極快的載入速度**和**優秀的SEO表現**。**Astro**是專為內容網站設計的現代靜態網站生成器，它能將網站編譯成純HTML，載入速度媲美原生網頁，同時保持現代開發體驗。
+
+<details>
+<summary>📝 靜態網站生成器技術選項</summary>
+
+- **Astro** - 內容優先的靜態網站生成器，支持多框架組件
+- **Next.js Static Export** - React生態的靜態網站方案
+- **Nuxt.js Static Generation** - Vue.js靜態網站生成
+- **Gatsby** - 基於React和GraphQL的靜態網站生成器
+- **Hugo** - 極速的Go語言靜態網站生成器
+- **Jekyll** - GitHub Pages原生支持的Ruby靜態生成器
+- **11ty (Eleventy)** - 靈活的JavaScript靜態網站生成器
+
+</details>
+
+<details>
+<summary>✍️ 內容管理技術選項</summary>
+
+- **Markdown + MDX** - 程式員友好的內容撰寫格式
+- **Contentful** - Headless CMS雲端內容管理
+- **Sanity** - 可客製化的Headless CMS
+- **Strapi** - 開源的Headless CMS
+- **Ghost** - 專為部落格設計的內容管理系統
+- **Notion API** - 將Notion當作CMS使用
+- **Obsidian Publish** - 筆記軟體的發布功能
+
+</details>
+
+**選擇這個技術組合的原因：** Astro能讓你用熟悉的前端技術（React、Vue、Svelte）開發組件，但最終輸出為靜態HTML，實現最佳性能。Markdown讓內容創作專注於寫作本身，不被複雜的編輯器干擾。靜態網站可以免費部署到GitHub Pages、Netlify或Vercel，維護成本幾乎為零。
+
+## 📡 RSS聚合與內容訂閱
+
+### Node.js + RSS Parser + MongoDB + Push Notifications
+
+**代表應用：** Feedly、Inoreader、NetNewsWire、個人RSS閱讀器
+
+RSS聚合器需要**定期抓取多個RSS源**、**去重和分類文章**、**推送新內容通知**。核心技術是**RSS解析庫**處理不同格式的RSS/Atom feeds，**定時任務**管理抓取週期，**推送通知**即時告知用戶新內容。
+
+<details>
+<summary>📰 RSS處理技術選項</summary>
+
+- **Node.js + rss-parser** - 強大的RSS/Atom解析庫
+- **Python + feedparser** - 成熟的RSS解析和處理
+- **Go + gofeed** - 高性能的RSS解析器
+- **RSS to JSON API** - 第三方RSS轉換服務
+- **Mercury Parser** - 全文內容提取和清理
+- **Readability API** - 文章正文提取算法
+
+</details>
+
+<details>
+<summary>📱 前端閱讀體驗技術選項</summary>
+
+- **React + Virtualization** - 大量文章列表的高效渲染
+- **Vue.js + Virtual Scroller** - 流暢的無限滾動體驗
+- **PWA + Service Worker** - 離線閱讀和背景同步
+- **Web Push Notifications** - 新文章的即時推送
+- **Reading Mode CSS** - 優化的閱讀排版和夜間模式
+- **Swipe Gestures** - 行動裝置的手勢操作
+
+</details>
+
+<details>
+<summary>⚡ 資料處理技術選項</summary>
+
+- **Node-cron + Bull Queue** - 定時RSS抓取和任務佇列
+- **MongoDB** - 彈性的文章和訂閱源儲存
+- **Redis** - 文章去重和讀取狀態快取
+- **Elasticsearch** - 全文搜索和文章分類
+- **Web Workers** - 大量RSS解析的背景處理
+- **Puppeteer** - 處理需要JavaScript的RSS源
+
+</details>
+
+**選擇這個技術組合的原因：** RSS聚合器的挑戰在於處理各種格式不一致的RSS源，以及高效地管理大量文章數據。Node.js的rss-parser庫能優雅處理各種RSS格式，MongoDB的靈活schema適合儲存結構不定的文章內容。定時抓取配合推送通知，讓用戶能第一時間獲得感興趣的內容更新。
+
+## 🎨 個人作品集展示
+
+### Svelte + Three.js + Netlify CMS + GitHub Pages
+
+**代表應用：** 設計師作品集、攝影師網站、開發者展示頁面
+
+作品集網站需要**視覺衝擊力**和**互動體驗**來展示創意作品。**Svelte**提供輕量高效的組件化開發，**Three.js**創造吸引人的3D視覺效果，**Netlify CMS**讓非技術用戶也能輕鬆更新作品內容。
+
+<details>
+<summary>🎭 視覺展示技術選項</summary>
+
+- **Three.js** - 3D圖形和互動動畫
+- **GSAP** - 專業級的動畫效果庫
+- **Lottie** - After Effects動畫在網頁中播放
+- **Framer Motion** - React生態的動畫庫
+- **CSS Grid + Flexbox** - 響應式的作品網格佈局
+- **Intersection Observer** - 滾動觸發的動畫效果
+- **WebGL Shaders** - 自定義的視覺特效
+
+</details>
+
+<details>
+<summary>🖼️ 媒體處理技術選項</summary>
+
+- **Next.js Image Optimization** - 自動圖片優化和Lazy Loading
+- **Cloudinary** - 雲端圖片處理和CDN
+- **Sharp** - 高效能的圖片格式轉換
+- **WebP/AVIF** - 現代化的圖片壓縮格式
+- **Video.js** - 跨瀏覽器的影片播放器
+- **YouTube/Vimeo Embed** - 第三方影片平台整合
+
+</details>
+
+**選擇這個技術組合的原因：** Svelte的編譯時優化讓作品集網站載入極快，Three.js的3D效果能讓作品展示更有創意和互動性。Netlify CMS提供了友善的內容管理界面，讓創作者能專注於作品本身而非技術細節。GitHub Pages的免費託管配合自動部署，讓作品集維護變得毫不費力。
 
 ## 🎵 音樂串流平台
 
