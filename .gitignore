@@ -42,3 +42,7 @@ venv/
 *.bak
 *.backup
 *.orig
+
+# Claude Code and Crush AI files
+.claude/
+.crush/

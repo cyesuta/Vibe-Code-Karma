@@ -37,33 +37,33 @@ Vibe Coding時應該不用再去關心代碼內容，而更應該注重是否了
 
 #### 📱 移動開發
 
-📄 **[Mobile Development Guide](mobile-development.md)** - 移動開發語言選擇指南 - 原生 vs 跨平台開發對比、Kotlin/Swift/React Native/Flutter 優劣分析、AI 時代的移動應用開發策略
+📄 **[Mobile Development Guide](docs/mobile-development.md)** - 移動開發語言選擇指南 - 原生 vs 跨平台開發對比、Kotlin/Swift/React Native/Flutter 優劣分析、AI 時代的移動應用開發策略
 
 #### 💻 桌面開發
 
-📄 **[Desktop Development Guide](desktop-development.md)** - 桌面開發語言選擇指南 - 原生開發 vs 跨平台開發 vs 網頁技術封裝、C++/C#/Swift/Tauri/.NET MAUI/Electron 技術選型、AI 時代的桌面應用開發策略
+📄 **[Desktop Development Guide](docs/desktop-development.md)** - 桌面開發語言選擇指南 - 原生開發 vs 跨平台開發 vs 網頁技術封裝、C++/C#/Swift/Tauri/.NET MAUI/Electron 技術選型、AI 時代的桌面應用開發策略
 
 #### ⚙️ 系統管理
 
-📄 **[System Management Guide](system-management.md)** - 系統管理語言指南 - PowerShell/Bash/Python 在不同平台的應用場景、個人開發者實務應用案例、AI 輔助系統自動化
+📄 **[System Management Guide](docs/system-management.md)** - 系統管理語言指南 - PowerShell/Bash/Python 在不同平台的應用場景、個人開發者實務應用案例、AI 輔助系統自動化
 
 #### 💎 通用程式語言
 
-📄 **[General Programming Guide](general-programming.md)** - 通用程式語言分析 - Ruby/Java 在 AI 時代的定位、為什麼個人開發者應選擇專門化工具、企業級與個人開發的技術選型差異
+📄 **[General Programming Guide](docs/general-programming.md)** - 通用程式語言分析 - Ruby/Java 在 AI 時代的定位、為什麼個人開發者應選擇專門化工具、企業級與個人開發的技術選型差異
 
 #### 🌐 Web 開發
 
-📄 **[Web Development Guide](web-development.md)** - Web開發語言選擇指南 - 前端/後端技術對比、JavaScript/TypeScript/Python/PHP/Node.js 優劣分析、AI 時代的Web開發語言選擇策略
+📄 **[Web Development Guide](docs/web-development.md)** - Web開發語言選擇指南 - 前端/後端技術對比、JavaScript/TypeScript/Python/PHP/Node.js 優劣分析、AI 時代的Web開發語言選擇策略
 
-📄 **[Web Deployment Guide](./web-deployment-guide.md)** - CSR vs 傳統HTML開發指南 - 客戶端渲染 (CSR) 與傳統HTML比較、React vs Vue vs Svelte 框架分析、現代Web開發技術選擇策略
+📄 **[Web Deployment Guide](docs/web-deployment-guide.md)** - CSR vs 傳統HTML開發指南 - 客戶端渲染 (CSR) 與傳統HTML比較、React vs Vue vs Svelte 框架分析、現代Web開發技術選擇策略
 
-📄 **[Web Applications Guide](web-applications.md)** - Web應用實作指南 - 圖像處理、數據可視化、企業級應用、SPA/SSR/SSG架構選擇、AI時代的Web應用開發策略
+📄 **[Web Applications Guide](docs/web-applications.md)** - Web應用實作指南 - 圖像處理、數據可視化、企業級應用、SPA/SSR/SSG架構選擇、AI時代的Web應用開發策略
 
-📄 **[JavaScript Animation Libraries Guide](js-animation-libraries.md)** - JavaScript動畫庫完全指南 - GSAP/Anime.js/Three.js/React動畫庫全面對比、通用型vs框架型動畫方案、現代網頁動態表現技術選擇策略
+📄 **[JavaScript Animation Libraries Guide](docs/js-animation-libraries.md)** - JavaScript動畫庫完全指南 - GSAP/Anime.js/Three.js/React動畫庫全面對比、通用型vs框架型動畫方案、現代網頁動態表現技術選擇策略
 
 #### 🗄️ 資料庫、RAG
 
-📄 **[Database Choice Guide](database-choice.md)** - 資料庫選擇指南 - MySQL/MongoDB/PostgreSQL/SQLite 深度對比、關聯式資料庫 vs NoSQL vs 向量資料庫、AI輔助開發時代的資料庫技術選型策略
+📄 **[Database Choice Guide](docs/database-choice.md)** - 資料庫選擇指南 - MySQL/MongoDB/PostgreSQL/SQLite 深度對比、關聯式資料庫 vs NoSQL vs 向量資料庫、AI輔助開發時代的資料庫技術選型策略
 
 #### 🌐 在實務程式開發的時候AI輔助的問題
 
