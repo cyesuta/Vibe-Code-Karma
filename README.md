@@ -1,41 +1,75 @@
-# Vibe Code Karma (技術債贖罪券)
+# Vibe Code Karma (AI債贖罪券)
 
 > "Redeeming the karma from your vibe-driven code, one commit at a time."
 > 一次一個 commit，償還技術債XD。
-
-> "Your guide to turning 'It works' into 'It's right'. Welcome to Vibe Code Karma."
-> 從「能跑就好」到「這樣才對」的一個指南。
+>
+> "Ask not what AI can do for you, ask what you can do for AI."
+> 你不要問AI為你做了什麼，要問你為AI做了什麼。
 
 ## 📖 專案簡介
 
-這是一個針對偏小白Vibe Coder的技術指南庫，Vibe Coding的應用範圍很廣，其實也不止寫程式。所以這裡的涉獵可能也很雜。
-網上針對各種技術的文章大多是從比如程序員、比如筆記專家這樣的角度切入，而少有從AI輔助工作的思維角度切入的。所以希望能拋磚引玉。
-希望大家都能享受「Vibe Coding」但不要產生一堆資安和可維護性都很可怕的東西。
-作者也是大小白，一起來償還技術債吧~
+這是一個針對Vibe Coding工具使用者的技術庫和思維參考。Vibe Coding的應用範圍很廣，其實也不止寫程式。所以這裡的涉獵可能也很雜。
+網上針對各種技術的文章大多是從程序員、筆記專家這樣的角度切入，而少有從AI輔助工作的思維角度切入的。所以希望能拋磚引玉。
+祝福大家都能享受「Vibe Coding」但不要產生一堆資安和可維護性都很可怕的東西。
+作者也是大小白，一起來償還AI輔助產生的技術債吧~
 
 ## 🎯 什麼是 Vibe Coding？
 
-有什麼工具？
-應用思維？
+Vibe Coding是什麼？簡單暴力的說法就是用嘴巴指揮LLM來寫程式、寫網站、寫內容。
+這種工具的核心是有一個人機交互界面、以及一個（或數個）大語言模型，
+
+還有！**人的大腦！！**沒錯人還是最重要的，只要你敢想，就可以Vibe！
 
 ## 🛠️ Vibe Coding 應用場景
 
-### 🚀 Coding
+### 🚀 編程
 
-Vibe Coding最常見的應用當然還是Coding。
+Vibe Coding最常見的應用當然還是編程。
 快速開發上線網站、應用，自己做一個windows批量小程式讓工作更簡便等……
 不同於傳統程序員要考慮開發週期、語言的學習曲線，Vibe Coding的開發在語言、框架等選擇上更考慮效能、搭配，以及適用場景。不用再被哪個語言束縛的同時，要如何選擇最適合的反而是難度和智慧所在。
 這裡提供一些現在主流的開發語言介紹、對比，以及它們在AI輔助開發的場景下的應用。
 
-#### 🌐程式語言對比
+Vibe Coding時應該不用再去關心代碼內容，而更應該注重是否了解整體開發的架構、框架、語言或LLM應用的優劣和選擇。
 
-📄 **[Programming Language Guide](programming-language.md)** - 程式語言比較與選擇指南 - 主流程式語言優缺點分析、AI 時代的程式語言選擇策略
+使用場景：
+在商業應用的時候，能夠快速完成原型的交付（功能確認），但很難完成最後的代碼交付。
+對個人應用來說，可以無腦完成個人用或者一次性用的程式。可以輔助開發個人程度可上線的內容。
+
+#### 📱 移動開發
+
+📄 **[Mobile Development Guide](mobile-development.md)** - 移動開發語言選擇指南 - 原生 vs 跨平台開發對比、Kotlin/Swift/React Native/Flutter 優劣分析、AI 時代的移動應用開發策略
+
+#### 💻 桌面開發
+
+📄 **[Desktop Development Guide](desktop-development.md)** - 桌面開發語言選擇指南 - 原生開發 vs 跨平台開發 vs 網頁技術封裝、C++/C#/Swift/Tauri/.NET MAUI/Electron 技術選型、AI 時代的桌面應用開發策略
+
+#### ⚙️ 系統管理
+
+📄 **[System Management Guide](system-management.md)** - 系統管理語言指南 - PowerShell/Bash/Python 在不同平台的應用場景、個人開發者實務應用案例、AI 輔助系統自動化
+
+#### 💎 通用程式語言
+
+📄 **[General Programming Guide](general-programming.md)** - 通用程式語言分析 - Ruby/Java 在 AI 時代的定位、為什麼個人開發者應選擇專門化工具、企業級與個人開發的技術選型差異
 
 #### 🌐 Web 開發
 
+📄 **[Web Development Guide](web-development.md)** - Web開發語言選擇指南 - 前端/後端技術對比、JavaScript/TypeScript/Python/PHP/Node.js 優劣分析、AI 時代的Web開發語言選擇策略
+
 📄 **[Web Deployment Guide](./web-deployment-guide.md)** - CSR vs 傳統HTML開發指南 - 客戶端渲染 (CSR) 與傳統HTML比較、React vs Vue vs Svelte 框架分析、現代Web開發技術選擇策略
 
-#### 🌐 資料庫、RAG
+📄 **[Web Applications Guide](web-applications.md)** - Web應用實作指南 - 圖像處理、數據可視化、企業級應用、SPA/SSR/SSG架構選擇、AI時代的Web應用開發策略
+
+📄 **[JavaScript Animation Libraries Guide](js-animation-libraries.md)** - JavaScript動畫庫完全指南 - GSAP/Anime.js/Three.js/React動畫庫全面對比、通用型vs框架型動畫方案、現代網頁動態表現技術選擇策略
+
+#### 🗄️ 資料庫、RAG
+
+📄 **[Database Choice Guide](database-choice.md)** - 資料庫選擇指南 - MySQL/MongoDB/PostgreSQL/SQLite 深度對比、關聯式資料庫 vs NoSQL vs 向量資料庫、AI輔助開發時代的資料庫技術選型策略
+
+#### 🌐 在實務程式開發的時候AI輔助的問題
+
+解析todo問題的時候LLM不知道怎麼綜合多個todo，可能產生重複的PR
+人必須不停地切分。
+與Coding的思考方向相反，Coding的時候是從微小開始構築，AI輔助編程的時候需要從整體框架一直切分。
 
 ### 📝 知識管理與研究
 
@@ -80,8 +114,3 @@ nocode類workflow自動化工具能夠崛起，證明了人類在電腦前重複
 ## 📝 授權條款
 
 本專案採用 MIT 授權條款 - 詳見 [LICENSE](LICENSE) 檔案
-
----
-
-*Remember: Every expert was once a beginner who never gave up.*
-*記住：每個專家都曾是永不放棄的初學者。*
