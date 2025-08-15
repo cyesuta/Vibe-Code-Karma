@@ -65,11 +65,39 @@ Vibe Coding時應該不用再去關心代碼內容，而更應該注重是否了
 
 📄 **[Database Choice Guide](docs/database-choice.md)** - 資料庫選擇指南 - MySQL/MongoDB/PostgreSQL/SQLite 深度對比、關聯式資料庫 vs NoSQL vs 向量資料庫、AI輔助開發時代的資料庫技術選型策略
 
+**RAG建製指南系列**：
+
+- 📄 **[RAG指南（上集）：基礎概念與資料準備](docs/rag-guide-part1-basics.md)** - RAG架構設計、五種分塊策略對比、Embedding模型選擇與微調
+- 📄 **[RAG指南（中集）：檢索與生成](docs/rag-guide-part2-retrieval.md)** - 向量索引技術、混合搜尋、重排序機制與多資料庫檢索優化
+- 📄 **[RAG指南（下集）：進階應用](docs/rag-guide-part3-advanced.md)** - 五種進階RAG變體、動態重排序引擎與企業級衝突處理策略
+- 📄 **[RAG指南（終集）：評估效能、自動學習與系統升級](docs/rag-guide-part4-optimization.md)** - 質量驗證框架、三種評估方法與自動化學習迴圈設計
+
+#### 🤖 AI/ML 開發與整合
+
+📄 **[LLM Model Selection Guide](docs/llm-model-selection.md)** - LLM模型選擇指南 - OpenAI/Claude/Gemini/開源模型對比、API選擇策略、成本效益分析、本地vs雲端部署考量
+
+📄 **[Prompt Engineering Guide](docs/prompt-engineering.md)** - 提示工程實戰指南 - 提示設計原則、Chain of Thought、Few-shot Learning、提示優化技巧、AI輔助開發中的提示策略
+
+📄 **[Multimodal AI Development](docs/multimodal-ai-development.md)** - 多模態AI開發指南 - 文字+圖像+語音整合、跨模態應用場景、多模態模型選擇、實作案例分析
+
+#### 🔧 開發工具與環境
+
+📄 **[AI Development Environment](docs/ai-development-environment.md)** - AI輔助開發環境配置 - Claude Code/Cursor/GitHub Copilot等工具深度對比、工作流優化、最佳實踐配置
+
+#### 🔒 安全性與自動化
+
+📄 **[AI-Assisted Security](docs/ai-assisted-security.md)** - AI輔助代碼安全指南 - 自動化安全掃描、漏洞檢測與修復、AI驅動的安全審查、數據隱私保護策略
+
 #### 🌐 在實務程式開發的時候AI輔助的問題
 
 解析todo問題的時候LLM不知道怎麼綜合多個todo，可能產生重複的PR
 人必須不停地切分。
 與Coding的思考方向相反，Coding的時候是從微小開始構築，AI輔助編程的時候需要從整體框架一直切分。
+
+**開發策略選擇**：
+
+- **傳統編程 vs 低代碼平台混合策略** - Bubble/Webflow/Retool等NoCode平台與傳統開發的結合點、什麼場景選擇什麼方案、如何在快速原型和可維護性間取得平衡
+- **AI輔助開發的認知轉換** - 從底層構建到頂層分解的思維轉變、如何有效地進行需求拆分、避免過度依賴AI導致的技術債務
 
 ### 📝 知識管理與研究
 
@@ -85,17 +113,45 @@ LLM帶來的最大革新是顛覆人對知識獲取和內化的方式，能夠�
 老馬向世界證明了只要你有LLM，百年官府資料也可以瞬間debug和查貓膩。數據整理和挖掘在AI輔助的時代能力是爆炸的。同時，大數據的爬取難度降低、LLM讓語言壁壘降低、內容生成不再辛苦。
 怕的只是沒有思路，不怕沒有技術可以達成。
 
+**基礎數據處理**：
+
 - **網頁爬蟲與數據挖掘** - 電商價格監控、社群媒體分析、新聞資訊收集
 - **API 整合與數據處理** - 多平台數據聚合、自動報表生成、數據可視化
 - **內容自動化** - 社群媒體發布、郵件營銷、內容管理系統
+
+📄 **[AI-Driven Data Analysis](docs/ai-driven-data-analysis.md)** - AI驅動數據分析指南 - LLM輔助數據解讀、自然語言查詢數據庫、智能洞察發現、多模態數據分析技術、預測建模自動化
+
+📄 **[Advanced Web Scraping](docs/advanced-web-scraping.md)** - 進階爬蟲技術指南 - AI輔助反爬蟲突破、實時數據流處理、多語言數據處理、智能驗證碼識別、模擬人類行為
+
+📄 **[Business Intelligence Automation](docs/business-intelligence-automation.md)** - 商業智能自動化指南 - 競品分析自動化、客戶行為分析、財務數據解讀、輿情監控與分析、決策支持系統
 
 #### ⚙️ 日常自動化
 
 nocode類workflow自動化工具能夠崛起，證明了人類在電腦前重複操作的作業真的很多。原本辦公室自動化依賴嚴格的流程設定，nocode類接入LLM讓workflow的設定變得可以通過網站上的幾個icon拖來拖去就解決。Vibe Coding工具更進一步，不只是網上的服務可以自動化對接，自己電腦裡的也可以，而且不受限方式，可以依照自己的需求來自定義需要的批量操作、流程化工具。
 
+**基礎自動化**：
+
 - **文件處理與轉換** - 批量格式轉換、內容提取、文件合併分割
 - **工作流程自動化** - 定時任務、系統監控、自動備份
 - **多媒體處理** - 圖片批處理、影音轉碼、縮圖生成
+
+**技術層面進階**：
+
+- **RPA與AI結合** - 傳統RPA工具（UiPath/Automation Anywhere）與LLM整合、智能決策自動化、異常處理自動化
+- **跨平台自動化** - Windows/macOS/Linux統一自動化腳本、雲端與本地混合自動化、移動設備自動化整合
+- **API整合自動化** - 第三方服務串接、Webhook自動觸發、微服務間自動協調
+
+**應用場景擴展**：
+
+- **辦公自動化進階** - 會議記錄整理與分發、郵件智能分類與回覆建議、行事曆智能安排與衝突解決
+- **財務與會計自動化** - 發票自動識別與分類、報銷流程自動化、財務報表自動生成
+- **內容創作自動化** - 社群媒體排程發布、內容素材自動整理、多語言內容自動翻譯與在地化
+
+**智能化升級**：
+
+- **自學習自動化系統** - 基於使用者行為模式的自動化建議、異常檢測與自動修正、效能優化自動調整
+- **語音控制自動化** - 自然語言指令執行、語音轉自動化腳本、聲控家居與辦公整合
+- **預測性自動化** - 基於歷史數據的需求預測、自動資源調配、智能排程優化
 
 #### 🎮 創意與實驗
 
