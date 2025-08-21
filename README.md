@@ -4,13 +4,11 @@
 >
 > "Ask not what AI can do for you, ask what you can do for AI."
 
-## 🌐 Language Versions | 語言版本 | 言語バージョン
+## 🌐 Language Versions
 
-| Language | 語言 | 言語 | Link | 連結 | リンク |
-|----------|------|------|------|------|--------|
-| 🇺🇸 English | 英文 | 英語 | [English Version](#vibe-code-karma) | [英文版本](#vibe-code-karma) | [英語版](#vibe-code-karma) |
-| 🇹🇼 繁體中文 | Traditional Chinese | 繁体字中国語 | [繁體中文版本](#vibe-code-karma-ai債贖罪券) | [Chinese Version](#vibe-code-karma-ai債贖罪券) | [中国語版](#vibe-code-karma-ai債贖罪券) |
-| 🇯🇵 日本語 | Japanese | 日語 | [日本語版](#vibe-code-karma-1) | [日文版本](#vibe-code-karma-1) | [Japanese Version](#vibe-code-karma-1) |
+| 🇺🇸 English | 🇹🇼 繁體中文 | 🇯🇵 日本語 |
+|--------------|-------------|-----------|
+| [English Version](#vibe-code-karma) | [繁體中文版本](#vibe-code-karma-ai債贖罪券) | [日本語版](#vibe-code-karma-1) |
 
 ## 📖 Project Introduction
 
