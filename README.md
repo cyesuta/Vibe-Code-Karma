@@ -58,56 +58,56 @@ Vibe Coding時應該不用再去關心代碼內容，而更應該注重是否了
 
 #### 🌐 Web 開發
 
-📄 **[Web Development Guide](docs/web-development.md)** - Web開發語言選擇指南 - 前端/後端技術對比、JavaScript/TypeScript/Python/PHP/Node.js 優劣分析、AI 時代的Web開發語言選擇策略
+📄 **[Web Development Guide](docs_tc/web-development.md)** - Web開發語言選擇指南 - 前端/後端技術對比、JavaScript/TypeScript/Python/PHP/Node.js 優劣分析、AI 時代的Web開發語言選擇策略
 
-📄 **[Web Deployment Guide](docs/web-deployment-guide.md)** - CSR vs 傳統HTML開發指南 - 客戶端渲染 (CSR) 與傳統HTML比較、React vs Vue vs Svelte 框架分析、現代Web開發技術選擇策略
+📄 **[Web Deployment Guide](docs_tc/web-deployment-guide.md)** - CSR vs 傳統HTML開發指南 - 客戶端渲染 (CSR) 與傳統HTML比較、React vs Vue vs Svelte 框架分析、現代Web開發技術選擇策略
 
-📄 **[Web Applications Guide](docs/web-applications.md)** - Web應用實作指南 - 圖像處理、數據可視化、企業級應用、SPA/SSR/SSG架構選擇、AI時代的Web應用開發策略
+📄 **[Web Applications Guide](docs_tc/web-applications.md)** - Web應用實作指南 - 圖像處理、數據可視化、企業級應用、SPA/SSR/SSG架構選擇、AI時代的Web應用開發策略
 
-📄 **[JavaScript Animation Libraries Guide](docs/js-animation-libraries.md)** - JavaScript動畫庫完全指南 - GSAP/Anime.js/Three.js/React動畫庫全面對比、通用型vs框架型動畫方案、現代網頁動態表現技術選擇策略
+📄 **[JavaScript Animation Libraries Guide](docs_tc/js-animation-libraries.md)** - JavaScript動畫庫完全指南 - GSAP/Anime.js/Three.js/React動畫庫全面對比、通用型vs框架型動畫方案、現代網頁動態表現技術選擇策略
 
 #### 📱 移動開發
 
-📄 **[Mobile Development Guide](docs/mobile-development.md)** - 移動開發語言選擇指南 - 原生 vs 跨平台開發對比、Kotlin/Swift/React Native/Flutter 優劣分析、AI 時代的移動應用開發策略
+📄 **[Mobile Development Guide](docs_tc/mobile-development.md)** - 移動開發語言選擇指南 - 原生 vs 跨平台開發對比、Kotlin/Swift/React Native/Flutter 優劣分析、AI 時代的移動應用開發策略
 
 #### 💻 桌面開發
 
-📄 **[Desktop Development Guide](docs/desktop-development.md)** - 桌面開發語言選擇指南 - 原生開發 vs 跨平台開發 vs 網頁技術封裝、C++/C#/Swift/Tauri/.NET MAUI/Electron 技術選型、AI 時代的桌面應用開發策略
+📄 **[Desktop Development Guide](docs_tc/desktop-development.md)** - 桌面開發語言選擇指南 - 原生開發 vs 跨平台開發 vs 網頁技術封裝、C++/C#/Swift/Tauri/.NET MAUI/Electron 技術選型、AI 時代的桌面應用開發策略
 
 #### ⚙️ 系統管理
 
-📄 **[System Management Guide](docs/system-management.md)** - 系統管理語言指南 - PowerShell/Bash/Python 在不同平台的應用場景、個人開發者實務應用案例、AI 輔助系統自動化
+📄 **[System Management Guide](docs_tc/system-management.md)** - 系統管理語言指南 - PowerShell/Bash/Python 在不同平台的應用場景、個人開發者實務應用案例、AI 輔助系統自動化
 
 #### 💎 通用程式語言
 
-📄 **[General Programming Guide](docs/general-programming.md)** - 通用程式語言分析 - Ruby/Java 在 AI 時代的定位、為什麼個人開發者應選擇專門化工具、企業級與個人開發的技術選型差異
+📄 **[General Programming Guide](docs_tc/general-programming.md)** - 通用程式語言分析 - Ruby/Java 在 AI 時代的定位、為什麼個人開發者應選擇專門化工具、企業級與個人開發的技術選型差異
 
 #### 🗄️ 資料庫、RAG
 
-📄 **[Database Choice Guide](docs/database-choice.md)** - 資料庫選擇指南 - MySQL/MongoDB/PostgreSQL/SQLite 深度對比、關聯式資料庫 vs NoSQL vs 向量資料庫、AI輔助開發時代的資料庫技術選型策略
+📄 **[Database Choice Guide](docs_tc/database-choice.md)** - 資料庫選擇指南 - MySQL/MongoDB/PostgreSQL/SQLite 深度對比、關聯式資料庫 vs NoSQL vs 向量資料庫、AI輔助開發時代的資料庫技術選型策略
 
 **RAG建製指南系列**：
 
-- 📄 **[RAG指南（上集）：基礎概念與資料準備](docs/rag-guide-part1-basics.md)** - RAG架構設計、五種分塊策略對比、Embedding模型選擇與微調
-- 📄 **[RAG指南（中集）：檢索與生成](docs/rag-guide-part2-retrieval.md)** - 向量索引技術、混合搜尋、重排序機制與多資料庫檢索優化
-- 📄 **[RAG指南（下集）：進階應用](docs/rag-guide-part3-advanced.md)** - 五種進階RAG變體、動態重排序引擎與企業級衝突處理策略
-- 📄 **[RAG指南（終集）：評估效能、自動學習與系統升級](docs/rag-guide-part4-optimization.md)** - 質量驗證框架、三種評估方法與自動化學習迴圈設計
+- 📄 **[RAG指南（上集）：基礎概念與資料準備](docs_tc/rag-guide-part1-basics.md)** - RAG架構設計、五種分塊策略對比、Embedding模型選擇與微調
+- 📄 **[RAG指南（中集）：檢索與生成](docs_tc/rag-guide-part2-retrieval.md)** - 向量索引技術、混合搜尋、重排序機制與多資料庫檢索優化
+- 📄 **[RAG指南（下集）：進階應用](docs_tc/rag-guide-part3-advanced.md)** - 五種進階RAG變體、動態重排序引擎與企業級衝突處理策略
+- 📄 **[RAG指南（終集）：評估效能、自動學習與系統升級](docs_tc/rag-guide-part4-optimization.md)** - 質量驗證框架、三種評估方法與自動化學習迴圈設計
 
 #### 🤖 AI/ML 開發與整合
 
-📄 **[LLM Model Selection Guide](docs/llm-model-selection.md)** - LLM模型選擇指南 - OpenAI/Claude/Gemini/開源模型對比、API選擇策略、成本效益分析、本地vs雲端部署考量
+📄 **[LLM Model Selection Guide](docs_tc/llm-model-selection.md)** - LLM模型選擇指南 - OpenAI/Claude/Gemini/開源模型對比、API選擇策略、成本效益分析、本地vs雲端部署考量
 
-📄 **[Prompt Engineering Guide](docs/prompt-engineering.md)** - 提示工程實戰指南 - 提示設計原則、Chain of Thought、Few-shot Learning、提示優化技巧、AI輔助開發中的提示策略
+📄 **[Prompt Engineering Guide](docs_tc/prompt-engineering.md)** - 提示工程實戰指南 - 提示設計原則、Chain of Thought、Few-shot Learning、提示優化技巧、AI輔助開發中的提示策略
 
-📄 **[Multimodal AI Development](docs/multimodal-ai-development.md)** - 多模態AI開發指南 - 文字+圖像+語音整合、跨模態應用場景、多模態模型選擇、實作案例分析
+📄 **[Multimodal AI Development](docs_tc/multimodal-ai-development.md)** - 多模態AI開發指南 - 文字+圖像+語音整合、跨模態應用場景、多模態模型選擇、實作案例分析
 
 #### 🔧 開發工具與環境
 
-📄 **[AI Development Environment](docs/ai-development-environment.md)** - AI輔助開發環境配置 - Claude Code/Cursor/GitHub Copilot等工具深度對比、工作流優化、最佳實踐配置
+📄 **[AI Development Environment](docs_tc/ai-development-environment.md)** - AI輔助開發環境配置 - Claude Code/Cursor/GitHub Copilot等工具深度對比、工作流優化、最佳實踐配置
 
 #### 🔒 安全性與自動化
 
-📄 **[AI-Assisted Security](docs/ai-assisted-security.md)** - AI輔助代碼安全指南 - 自動化安全掃描、漏洞檢測與修復、AI驅動的安全審查、數據隱私保護策略
+📄 **[AI-Assisted Security](docs_tc/ai-assisted-security.md)** - AI輔助代碼安全指南 - 自動化安全掃描、漏洞檢測與修復、AI驅動的安全審查、數據隱私保護策略
 
 #### 🌐 在實務程式開發的時候AI輔助的問題
 
@@ -140,11 +140,11 @@ LLM帶來的最大革新是顛覆人對知識獲取和內化的方式，能夠�
 - **API 整合與數據處理** - 多平台數據聚合、自動報表生成、數據可視化
 - **內容自動化** - 社群媒體發布、郵件營銷、內容管理系統
 
-📄 **[AI-Driven Data Analysis](docs/ai-driven-data-analysis.md)** - AI驅動數據分析指南 - LLM輔助數據解讀、自然語言查詢數據庫、智能洞察發現、多模態數據分析技術、預測建模自動化
+📄 **[AI-Driven Data Analysis](docs_tc/ai-driven-data-analysis.md)** - AI驅動數據分析指南 - LLM輔助數據解讀、自然語言查詢數據庫、智能洞察發現、多模態數據分析技術、預測建模自動化
 
-📄 **[Advanced Web Scraping](docs/advanced-web-scraping.md)** - 進階爬蟲技術指南 - AI輔助反爬蟲突破、實時數據流處理、多語言數據處理、智能驗證碼識別、模擬人類行為
+📄 **[Advanced Web Scraping](docs_tc/advanced-web-scraping.md)** - 進階爬蟲技術指南 - AI輔助反爬蟲突破、實時數據流處理、多語言數據處理、智能驗證碼識別、模擬人類行為
 
-📄 **[Business Intelligence Automation](docs/business-intelligence-automation.md)** - 商業智能自動化指南 - 競品分析自動化、客戶行為分析、財務數據解讀、輿情監控與分析、決策支持系統
+📄 **[Business Intelligence Automation](docs_tc/business-intelligence-automation.md)** - 商業智能自動化指南 - 競品分析自動化、客戶行為分析、財務數據解讀、輿情監控與分析、決策支持系統
 
 #### ⚙️ 日常自動化
 
