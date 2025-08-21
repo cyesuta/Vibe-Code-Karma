@@ -59,56 +59,56 @@ For personal applications, it can mindlessly complete programs for personal or o
 
 #### 🌐 Web Development
 
-📄 **[Web Development Guide](docs/web-development.md)** - A guide to choosing web development languages - Comparison of front-end/back-end technologies, analysis of the pros and cons of JavaScript/TypeScript/Python/PHP/Node.js, and strategies for choosing web development languages in the AI era.
+📄 **[Web Development Guide](docs_en/web-development.md)** - A guide to choosing web development languages - Comparison of front-end/back-end technologies, analysis of the pros and cons of JavaScript/TypeScript/Python/PHP/Node.js, and strategies for choosing web development languages in the AI era.
 
-📄 **[Web Deployment Guide](docs/web-deployment-guide.md)** - CSR vs. Traditional HTML Development Guide - Comparison of Client-Side Rendering (CSR) and traditional HTML, analysis of React vs. Vue vs. Svelte frameworks, and strategies for choosing modern web development technologies.
+📄 **[Web Deployment Guide](docs_en/web-deployment-guide.md)** - CSR vs. Traditional HTML Development Guide - Comparison of Client-Side Rendering (CSR) and traditional HTML, analysis of React vs. Vue vs. Svelte frameworks, and strategies for choosing modern web development technologies.
 
-📄 **[Web Applications Guide](docs/web-applications.md)** - A guide to implementing web applications - Image processing, data visualization, enterprise-level applications, selection of SPA/SSR/SSG architectures, and strategies for web application development in the AI era.
+📄 **[Web Applications Guide](docs_en/web-applications.md)** - A guide to implementing web applications - Image processing, data visualization, enterprise-level applications, selection of SPA/SSR/SSG architectures, and strategies for web application development in the AI era.
 
-📄 **[JavaScript Animation Libraries Guide](docs/js-animation-libraries.md)** - The Complete Guide to JavaScript Animation Libraries - A comprehensive comparison of GSAP/Anime.js/Three.js/React animation libraries, general-purpose vs. framework-specific animation solutions, and strategies for choosing modern web dynamic effect technologies.
+📄 **[JavaScript Animation Libraries Guide](docs_en/js-animation-libraries.md)** - The Complete Guide to JavaScript Animation Libraries - A comprehensive comparison of GSAP/Anime.js/Three.js/React animation libraries, general-purpose vs. framework-specific animation solutions, and strategies for choosing modern web dynamic effect technologies.
 
 #### 📱 Mobile Development
 
-📄 **[Mobile Development Guide](docs/mobile-development.md)** - A guide to choosing mobile development languages - Comparison of native vs. cross-platform development, analysis of the pros and cons of Kotlin/Swift/React Native/Flutter, and strategies for mobile application development in the AI era.
+📄 **[Mobile Development Guide](docs_en/mobile-development.md)** - A guide to choosing mobile development languages - Comparison of native vs. cross-platform development, analysis of the pros and cons of Kotlin/Swift/React Native/Flutter, and strategies for mobile application development in the AI era.
 
 #### 💻 Desktop Development
 
-📄 **[Desktop Development Guide](docs/desktop-development.md)** - A guide to choosing desktop development languages - Native development vs. cross-platform development vs. web technology encapsulation, technology selection for C++/C#/Swift/Tauri/.NET MAUI/Electron, and strategies for desktop application development in the AI era.
+📄 **[Desktop Development Guide](docs_en/desktop-development.md)** - A guide to choosing desktop development languages - Native development vs. cross-platform development vs. web technology encapsulation, technology selection for C++/C#/Swift/Tauri/.NET MAUI/Electron, and strategies for desktop application development in the AI era.
 
 #### ⚙️ System Management
 
-📄 **[System Management Guide](docs/system-management.md)** - A guide to system management languages - Application scenarios for PowerShell/Bash/Python on different platforms, practical application cases for individual developers, and AI-assisted system automation.
+📄 **[System Management Guide](docs_en/system-management.md)** - A guide to system management languages - Application scenarios for PowerShell/Bash/Python on different platforms, practical application cases for individual developers, and AI-assisted system automation.
 
 #### 💎 General-Purpose Programming Languages
 
-📄 **[General Programming Guide](docs/general-programming.md)** - Analysis of general-purpose programming languages - The positioning of Ruby/Java in the AI era, why individual developers should choose specialized tools, and the differences in technology selection for enterprise and personal development.
+📄 **[General Programming Guide](docs_en/general-programming.md)** - Analysis of general-purpose programming languages - The positioning of Ruby/Java in the AI era, why individual developers should choose specialized tools, and the differences in technology selection for enterprise and personal development.
 
 #### 🗄️ Databases & RAG
 
-📄 **[Database Choice Guide](docs/database-choice.md)** - A guide to choosing databases - In-depth comparison of MySQL/MongoDB/PostgreSQL/SQLite, relational databases vs. NoSQL vs. vector databases, and strategies for database technology selection in the era of AI-assisted development.
+📄 **[Database Choice Guide](docs_en/database-choice.md)** - A guide to choosing databases - In-depth comparison of MySQL/MongoDB/PostgreSQL/SQLite, relational databases vs. NoSQL vs. vector databases, and strategies for database technology selection in the era of AI-assisted development.
 
 **RAG Implementation Guide Series:**
 
-- 📄 **[RAG Guide (Part 1): Basic Concepts and Data Preparation](docs/rag-guide-part1-basics.md)** - RAG architecture design, comparison of five chunking strategies, and selection and fine-tuning of Embedding models.
-- 📄 **[RAG Guide (Part 2): Retrieval and Generation](docs/rag-guide-part2-retrieval.md)** - Vector indexing techniques, hybrid search, re-ranking mechanisms, and multi-database retrieval optimization.
-- 📄 **[RAG Guide (Part 3): Advanced Applications](docs/rag-guide-part3-advanced.md)** - Five advanced RAG variants, dynamic re-ranking engines, and enterprise-level conflict resolution strategies.
-- 📄 **[RAG Guide (Part 4): Performance Evaluation, Automated Learning, and System Upgrades](docs/rag-guide-part4-optimization.md)** - Quality validation frameworks, three evaluation methods, and automated learning loop design.
+- 📄 **[RAG Guide (Part 1): Basic Concepts and Data Preparation](docs_en/rag-guide-part1-basics.md)** - RAG architecture design, comparison of five chunking strategies, and selection and fine-tuning of Embedding models.
+- 📄 **[RAG Guide (Part 2): Retrieval and Generation](docs_en/rag-guide-part2-retrieval.md)** - Vector indexing techniques, hybrid search, re-ranking mechanisms, and multi-database retrieval optimization.
+- 📄 **[RAG Guide (Part 3): Advanced Applications](docs_en/rag-guide-part3-advanced.md)** - Five advanced RAG variants, dynamic re-ranking engines, and enterprise-level conflict resolution strategies.
+- 📄 **[RAG Guide (Part 4): Performance Evaluation, Automated Learning, and System Upgrades](docs_en/rag-guide-part4-optimization.md)** - Quality validation frameworks, three evaluation methods, and automated learning loop design.
 
 #### 🤖 AI/ML Development and Integration
 
-📄 **[LLM Model Selection Guide](docs/llm-model-selection.md)** - A guide to choosing LLM models - Comparison of OpenAI/Claude/Gemini/open-source models, API selection strategies, cost-benefit analysis, and considerations for local vs. cloud deployment.
+📄 **[LLM Model Selection Guide](docs_en/llm-model-selection.md)** - A guide to choosing LLM models - Comparison of OpenAI/Claude/Gemini/open-source models, API selection strategies, cost-benefit analysis, and considerations for local vs. cloud deployment.
 
-📄 **[Prompt Engineering Guide](docs/prompt-engineering.md)** - A practical guide to prompt engineering - Principles of prompt design, Chain of Thought, Few-shot Learning, prompt optimization techniques, and prompt strategies in AI-assisted development.
+📄 **[Prompt Engineering Guide](docs_en/prompt-engineering.md)** - A practical guide to prompt engineering - Principles of prompt design, Chain of Thought, Few-shot Learning, prompt optimization techniques, and prompt strategies in AI-assisted development.
 
-📄 **[Multimodal AI Development](docs/multimodal-ai-development.md)** - A guide to multimodal AI development - Integration of text, images, and speech, cross-modal application scenarios, selection of multimodal models, and analysis of implementation cases.
+📄 **[Multimodal AI Development](docs_en/multimodal-ai-development.md)** - A guide to multimodal AI development - Integration of text, images, and speech, cross-modal application scenarios, selection of multimodal models, and analysis of implementation cases.
 
 #### 🔧 Development Tools and Environment
 
-📄 **[AI Development Environment](docs/ai-development-environment.md)** - Configuring an AI-assisted development environment - In-depth comparison of tools like Claude Code/Cursor/GitHub Copilot, workflow optimization, and best practice configurations.
+📄 **[AI Development Environment](docs_en/ai-development-environment.md)** - Configuring an AI-assisted development environment - In-depth comparison of tools like Claude Code/Cursor/GitHub Copilot, workflow optimization, and best practice configurations.
 
 #### 🔒 Security and Automation
 
-📄 **[AI-Assisted Security](docs/ai-assisted-security.md)** - A guide to AI-assisted code security - Automated security scanning, vulnerability detection and remediation, AI-driven security audits, and data privacy protection strategies.
+📄 **[AI-Assisted Security](docs_en/ai-assisted-security.md)** - A guide to AI-assisted code security - Automated security scanning, vulnerability detection and remediation, AI-driven security audits, and data privacy protection strategies.
 
 #### 🌐 Problems with AI Assistance in Practical Software Development
 
@@ -141,11 +141,11 @@ The only fear is the lack of ideas, not the lack of technology to achieve them.
 - **API Integration and Data Processing** - Multi-platform data aggregation, automated report generation, and data visualization.
 - **Content Automation** - Social media posting, email marketing, and content management systems.
 
-📄 **[AI-Driven Data Analysis](docs/ai-driven-data-analysis.md)** - A guide to AI-driven data analysis - LLM-assisted data interpretation, natural language database queries, intelligent insight discovery, multimodal data analysis techniques, and automated predictive modeling.
+📄 **[AI-Driven Data Analysis](docs_en/ai-driven-data-analysis.md)** - A guide to AI-driven data analysis - LLM-assisted data interpretation, natural language database queries, intelligent insight discovery, multimodal data analysis techniques, and automated predictive modeling.
 
-📄 **[Advanced Web Scraping](docs/advanced-web-scraping.md)** - A guide to advanced scraping techniques - AI-assisted anti-scraping breakthroughs, real-time data stream processing, multilingual data processing, intelligent CAPTCHA recognition, and simulation of human behavior.
+📄 **[Advanced Web Scraping](docs_en/advanced-web-scraping.md)** - A guide to advanced scraping techniques - AI-assisted anti-scraping breakthroughs, real-time data stream processing, multilingual data processing, intelligent CAPTCHA recognition, and simulation of human behavior.
 
-📄 **[Business Intelligence Automation](docs/business-intelligence-automation.md)** - A guide to business intelligence automation - Automated competitor analysis, customer behavior analysis, financial data interpretation, public opinion monitoring and analysis, and decision support systems.
+📄 **[Business Intelligence Automation](docs_en/business-intelligence-automation.md)** - A guide to business intelligence automation - Automated competitor analysis, customer behavior analysis, financial data interpretation, public opinion monitoring and analysis, and decision support systems.
 
 #### ⚙️ Daily Automation
 
