@@ -45,4 +45,4 @@ venv/
 
 # Claude Code and Crush AI files
 .claude/
-.crush/
+.crush/website/
