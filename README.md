@@ -8,7 +8,7 @@
 
 | 🇺🇸 English | 🇹🇼 繁體中文 | 🇯🇵 日本語 |
 |--------------|-------------|-----------|
-| [English Version](#vibe-code-karma) | [繁體中文版本](#vibe-code-karma-ai債贖罪券) | [日本語版](#vibe-code-karma-1) |
+| [English Version](#vibe-code-karma) | [繁體中文版本](#vibe-code-karma-1) | [日本語版](#vibe-code-karma-2) |
 
 ## 📖 Project Introduction
 
