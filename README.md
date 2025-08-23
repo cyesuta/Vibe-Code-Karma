@@ -130,6 +130,8 @@ How can we leverage the benefits and avoid the harms to manage notes, build know
 - **Literature Research and Data Collection** - Academic paper scraping, citation analysis, and research trend tracking.
 - **Web Search Optimization** - Automated search strategies, result filtering, and information deduplication.
 
+📄 **[Chart & Visualization Tools Guide](docs_en/chart-visualization-tools.md)** - Mermaid vs. Draw.io In-depth Comparison - Code-driven chart generation, professional visual design tools, chart strategies in the AI era, best practices for document-driven development and version control.
+
 #### 🔍 Data Collection and Analysis
 
 The "Old Horse" (a reference) has shown the world that with an LLM, you can instantly debug and find discrepancies in a century's worth of government data. The power of data organization and mining has exploded in the era of AI assistance. At the same time, the difficulty of large-scale data scraping has decreased, language barriers have been lowered by LLMs, and content generation is no longer a chore.
@@ -528,6 +530,8 @@ LLMがもたらした最大の革新は、人々が知識を獲得し内面化�
 - **ノート整理と知識ベース構築** - ノートの自動分類、タグ管理、知識グラフの作成
 - **文献研究とデータ収集** - 学術論文のスクレイピング、引用分析、研究トレンドの追跡
 - **ウェブ検索の最適化** - 検索戦略の自動化、結果のフィルタリング、情報の重複排除
+
+📄 **[グラフ・可視化ツール完全ガイド](docs_jp/chart-visualization-tools.md)** - Mermaid vs Draw.io 詳細比較 - コード駆動のグラフ生成、プロフェッショナルなビジュアルデザインツール、AI時代のグラフ戦略、ドキュメント駆動開発とバージョン管理のベストプラクティス
 
 #### 🔍 データ収集と分析
 
