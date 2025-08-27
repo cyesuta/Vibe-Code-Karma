@@ -6,9 +6,9 @@
 
 ## 🌐 Language Versions
 
-| 🇺🇸 English | 🇹🇼 繁體中文 | 🇯🇵 日本語 |
-|--------------|-------------|-----------|
-| [English Version](#vibe-code-karma) | [繁體中文版本](#vibe-code-karma-1) | [日本語版](#vibe-code-karma-2) |
+| 🇺🇸 English                     | 🇹🇼 繁體中文                            | 🇯🇵 日本語                 |
+| -------------------------------- | ---------------------------------------- | --------------------------- |
+| [English Version](#vibe-code-karma) | [繁體中文版本](#vibe-code-karma-ai債贖罪券) | [日本語版](#vibe-code-karma-2) |
 
 ## 📖 Project Introduction
 
@@ -130,7 +130,7 @@ How can we leverage the benefits and avoid the harms to manage notes, build know
 - **Literature Research and Data Collection** - Academic paper scraping, citation analysis, and research trend tracking.
 - **Web Search Optimization** - Automated search strategies, result filtering, and information deduplication.
 
-📄 **[Chart & Visualization Tools Guide](docs_en/chart-visualization-tools.md)** - Mermaid vs. Draw.io In-depth Comparison - Code-driven chart generation, professional visual design tools, chart strategies in the AI era, best practices for document-driven development and version control.
+📄 **[Chart &amp; Visualization Tools Guide](docs_en/chart-visualization-tools.md)** - Mermaid vs. Draw.io In-depth Comparison - Code-driven chart generation, professional visual design tools, chart strategies in the AI era, best practices for document-driven development and version control.
 
 #### 🔍 Data Collection and Analysis
 
@@ -303,6 +303,8 @@ Vibe Coding時應該不用再去關心代碼內容，而更應該注重是否了
 📄 **[Prompt Engineering Guide](docs_tc/prompt-engineering.md)** - 提示工程實戰指南 - 提示設計原則、Chain of Thought、Few-shot Learning、提示優化技巧、AI輔助開發中的提示策略
 
 📄 **[Multimodal AI Development](docs_tc/multimodal-ai-development.md)** - 多模態AI開發指南 - 文字+圖像+語音整合、跨模態應用場景、多模態模型選擇、實作案例分析
+
+📄 **[Vibe Coding Debug Meta Prompt](docs_tc/vibe-coding-debug-meta-prompt.md)** - AI開發核心指令集 - 針對AI輔助開發的完整除錯規則集，涵蓋資料一致性、非同步操作、UI管理、字串處理、錯誤處理、效能優化、系統互動等八大領域的最佳實踐
 
 #### 🔧 開發工具與環境
 
