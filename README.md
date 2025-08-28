@@ -46,6 +46,7 @@ At this stage, LLMs can perform some tasks, data organization, and programming f
 
 📄 **[In-depth Discussion: The Reality of LLMs](docs_en/llm-limitations-reality.md)** - From media hype to technical reality, a detailed analysis of the four major AGI challenges and their interesting parallels with human cognitive development.
 
+
 ## 🛠️ Vibe Coding Application Scenarios
 
 ### 🚀 Programming
@@ -64,47 +65,66 @@ For personal applications, it can mindlessly complete programs for personal or o
 
 "Help me build a website" is likely the first step for many into Vibe Coding. By just describing the direction and content, an LLM can start generating the code for an entire website, and it's even easy to have it replicate an existing site. But what kind of framework and language did it actually use? Having some knowledge of mainstream web application languages and frameworks will surely lead to better choices when giving commands.
 📄 **[Web Development Guide](docs_en/web-development.md)** - What languages are available? A quick comparison of front-end and back-end choices.
+
 📄 **[Web Deployment Guide](docs_en/web-deployment-guide.md)** - Why isn't the output HTML? What is client-side rendering? What frameworks are there?
+
 📄 **[Web Applications Guide](docs_en/web-applications.md)** - What are web applications? What frameworks can be used to build them?
+
 📄 **[JavaScript Animation Libraries Guide](docs_en/js-animation-libraries.md)** - Is the style of LLM-generated pages too ugly and monotonous? Let it read a JS library to make it awesome!
+
 
 #### 📱 Mobile Development
 
 With phones and iPads always in hand, whether you need to port desktop software to mobile or can't find the right app for a specific function, mobile apps actually require more customization than desktop software. In the past, the cost of customization was prohibitive, but now it has become unprecedentedly simple. Whether you plan to sell it or not, there is a huge demand for personal use.
 📄 **[Mobile Development Guide](docs_en/mobile-development.md)** - A comparison of native and cross-platform mobile development languages, and what can only be done with native development.
 
+
 #### 💻 Desktop Development
 
 Developing desktop software sounds grand, but in reality, life is full of needs for good, vertical, and precise small software tools. Whether it's for report generation, financial management, system monitoring, simple organization, system enhancement, knowledge management, custom calculations, reminder software, etc. I can say that since I started using Claude Code Max, new small tools are born every day...
 📄 **[Desktop Development Guide](docs_en/desktop-development.md)** - A comparative guide to desktop development languages.
+
 
 #### ⚙️ System Management
 
 Unlike computer software, some very simple and highly repetitive tasks, such as file batch processing, content extraction using strict keyword regular expressions, file merging/splitting, scheduled tasks, system monitoring, automatic backups, transcoding, etc., can be implemented directly through the most basic system management languages.
 📄 **[System Management Guide](docs_en/system-management.md)** - A guide to system management languages - Application scenarios for PowerShell/Bash/Python on different platforms, practical application cases for individual developers, and AI-assisted system automation.
 
+
 #### 💎 General-Purpose Programming Languages
 
 📄 **[General Programming Guide](docs_en/general-programming.md)** - Analysis of general-purpose programming languages - The positioning of Ruby/Java in the AI era, why individual developers should choose specialized tools, and the differences in technology selection for enterprise and personal development.
+
 
 #### 🗄️ Databases & RAG
 
 📄 **[Database Choice Guide](docs_en/database-choice.md)** - A guide to choosing databases - In-depth comparison of MySQL/MongoDB/PostgreSQL/SQLite, relational databases vs. NoSQL vs. vector databases, and strategies for database technology selection in the era of AI-assisted development.
 
+
 **RAG Implementation Guide Series:**
 - 📄 **[RAG Guide (Part 1): Basic Concepts and Data Preparation](docs_en/rag-guide-part1-basics.md)** - RAG architecture design, comparison of five chunking strategies, and selection and fine-tuning of Embedding models.
+
 - 📄 **[RAG Guide (Part 2): Retrieval and Generation](docs_en/rag-guide-part2-retrieval.md)** - Vector indexing techniques, hybrid search, re-ranking mechanisms, and multi-database retrieval optimization.
+
 - 📄 **[RAG Guide (Part 3): Advanced Applications](docs_en/rag-guide-part3-advanced.md)** - Five advanced RAG variants, dynamic re-ranking engines, and enterprise-level conflict resolution strategies.
+
 - 📄 **[RAG Guide (Part 4): Performance Evaluation, Automated Learning, and System Upgrades](docs_en/rag-guide-part4-optimization.md)** - Quality validation frameworks, three evaluation methods, and automated learning loop design.
+
 
 #### 🤖 AI Development and Integration
 
 📄 **[LLM Model Selection Guide (Not Written Yet)](docs_en/llm-model-selection.md)** - A guide to choosing LLM models.
+
 📄 **[Prompt Engineering Guide (Not Written Yet)](docs_en/prompt-engineering.md)** - A practical guide to prompt engineering.
+
 📄 **[Multimodal AI Development Guide (Not Written Yet)](docs_en/multimodal-ai-development.md)** - A guide to multimodal AI development - Integration of text, images, and speech, cross-modal application scenarios, selection of multimodal models, and analysis of implementation cases.
+
 📄 **[Vibe Coding Debugging Meta-Prompt](docs_en/vibe-coding-debug-meta-prompt.md)** - There are still some unavoidable and annoying patterns when using AI for development. This is a prompt to make the AI development tool behave a little better.
+
 📄 **[AI Development Environment Guide (Not Written Yet)](docs_en/ai-development-environment.md)** - Configuring an AI-assisted development environment - In-depth comparison of tools like Claude Code/Cursor/GitHub Copilot, workflow optimization, and best practice configurations.
+
 📄 **[AI-Assisted Security Guide (Not Written Yet)](docs_en/ai-assisted-security.md)** - A guide to AI-assisted code security - Automated security scanning, vulnerability detection and remediation, AI-driven security audits, and data privacy protection strategies.
+
 
 #### 🌐 Problems with AI Assistance in Practical Software Development
 
@@ -112,6 +132,7 @@ When parsing "to-do" items, LLMs don't know how to synthesize multiple items and
 Humans must continuously break down tasks.
 Contrary to the thinking process in coding, which starts from small components and builds up, AI-assisted programming requires breaking down the overall framework from the top down.
 📄 **[Traditional vs. AI-Assisted Development Workflows (Not Written Yet)](docs_en/ai-assisted-security.md)** - The mental shift from bottom-up construction to top-down decomposition, how to effectively break down requirements, and how to avoid the technical debt caused by over-reliance on AI.
+
 
 ### 📝 Knowledge Management and Research
 
@@ -122,25 +143,35 @@ How can we leverage the benefits and avoid the harms to manage notes, build know
 📄 **[Five Modules to Reduce Hallucinations (Not Written Yet)](docs_en/xxx.md)**
 📄 **[Improving LLM Information Generation Patterns (Not Written Yet)](docs_en/xxx.md)**
 📄 **[The Complete Guide to Chart & Visualization Tools](docs_en/chart-visualization-tools.md)** - An introduction and comparison of Mermaid, Draw.io, and various code-driven chart generation tools.
+
 
 #### 🔍 Data Collection and Analysis
 
 Elon Musk has shown the world that with an LLM, you can instantly debug and find discrepancies in a century's worth of government data. The power of data organization and mining has exploded in the era of AI assistance. At the same time, the difficulty of large-scale data scraping has decreased, language barriers have been lowered by LLMs, and content generation is no longer a chore.
 The only fear is the lack of ideas, not the lack of technology to achieve them.
 📄 **[Web Scraping and Data Mining (Not Written Yet)](docs_en/xxx.md)** - E-commerce price monitoring, social media analysis, and news information collection.
+
 📄 **[API Integration and Data Processing (Not Written Yet)](docs_en/xxx.md)** - Multi-platform data aggregation, automated report generation, and data visualization.
+
 📄 **[Content Automation (Not Written Yet)](docs_en/xxx.md)** - Social media posting, email marketing, and content management systems.
+
 📄 **[AI-Driven Data Analysis Guide (Not Written Yet)](docs_en/ai-driven-data-analysis.md)** - A guide to AI-driven data analysis - LLM-assisted data interpretation, natural language database queries, intelligent insight discovery, multimodal data analysis techniques, and automated predictive modeling.
+
 📄 **[Advanced Web Scraping Guide (Not Written Yet)](docs_en/advanced-web-scraping.md)** - A guide to advanced scraping techniques - AI-assisted anti-scraping breakthroughs, real-time data stream processing, multilingual data processing, intelligent CAPTCHA recognition, and simulation of human behavior.
+
 📄 **[Business Intelligence Automation Guide (Not Written Yet)](docs_en/business-intelligence-automation.md)** - A guide to business intelligence automation - Automated competitor analysis, customer behavior analysis, financial data interpretation, public opinion monitoring and analysis, and decision support systems.
+
 
 #### ⚙️ Daily Automation
 
 The rise of no-code workflow automation tools proves that humans perform a lot of repetitive tasks in front of the computer. While office automation originally relied on strict process settings, integrating LLMs with no-code tools allows workflows to be configured by simply dragging and dropping a few icons on a website. Vibe Coding tools go a step further: not only can online services be automated, but so can tasks on your own computer. Furthermore, the methods are not limited; you can customize the batch operations and workflow tools you need according to your own requirements.
 
 📄 **[Office Automation You Can Implement Immediately (Not Written Yet)](docs_en/xxx.md)** - Meeting minute organization and distribution, intelligent email classification and reply suggestions, intelligent calendar scheduling and conflict resolution, automated invoice recognition and classification, automated expense reimbursement processes, and automated financial report generation.
+
 📄 **[Social Media Automation You Can Implement Immediately (Not Written Yet)](docs_en/xxx.md)** - Scheduled social media posting, automated content material organization, and automated multilingual content translation and localization.
+
 📄 **[Integrating with Original Service Systems (Not Written Yet)](docs_en/xxx.md)** - Third-party service integration, automated webhook triggers, and automated coordination between microservices.
+
 
 **Intelligent Upgrades:**
 - **RPA and AI Integration** - Integration of traditional RPA tools (UiPath/Automation Anywhere) with LLMs, intelligent decision automation, and automated exception handling.
@@ -204,6 +235,7 @@ Vibe Coding是什麼？簡單暴力的說法就是用嘴巴指揮LLM來寫程式
 
 📄 **[深入探討：LLM的真實面貌](docs_tc/llm-limitations-reality.md)** - 從媒體炒作到技術現實，詳細分析AGI四大挑戰與人類認知發展的有趣對照
 
+
 ## 🛠️ Vibe Coding 應用場景
 
 ### 🚀 編程
@@ -222,47 +254,66 @@ Vibe Coding在商業應用的時候，能夠快速完成原型的交付（功能
 
 「幫我做個網站」相信是許多人踏入Vibe Coding的第一步，只要說明方向和內容，LLM就會開始生成一整個網站的代碼，甚至要它模仿現有其他的人的網站復刻一個也毫無難度。但它到底做了一個什麼框架、什麼語言的網站呢？如果對網路應用的主流語言、框架有一些認識，相信能夠在指揮的時候有更好的選擇。
 📄 **[Web 開發指南](docs_tc/web-development.md)** - 有哪些語言可用？快速對比前端、後端選擇
+
 📄 **[Web 部署指南](docs_tc/web-deployment-guide.md)** - 為什麼生成的不是HTML？什麼是客戶端渲染？都有哪些框架？
+
 📄 **[Web 應用指南](docs_tc/web-applications.md)** - Web應用都有哪些？可以用什麼框架做？
+
 📄 **[JavaScript 動畫庫指南](docs_tc/js-animation-libraries.md)** - LLM生成的頁面風格太醜太單一？讓它讀JS庫直接帥炸！
+
 
 #### 📱 移動開發
 
 手機、iPad不離手，無論是電腦的軟體要複製到移動端、還是有個功能就是找不到適合的App，移動端的App其實比電腦端更需要按人定制，以前對定制的成本根本不敢估計，現在變得前所未有的簡單。先不論要不要上線賣錢，自己用需求也普遍很大。
 📄 **[移動開發指南](docs_tc/mobile-development.md)** - 原生、跨平台移動開發語言對比、哪些只有原生可以做？
 
+
 #### 💻 桌面開發
 
 開發桌面軟體，聽起來很偉大，其實生活隨處可見都需要好的、垂直的、精準解決需求的小軟體。無論是報表生成、財務管理、系統監控、只是整理、系統增強、知識管理、定制計算、提醒軟體等等……。可以說自從我開了Claude Code Max之後，每天都有小的新工具被生出來……
 📄 **[桌面開發指南](docs_tc/desktop-development.md)** - 桌面開發語言對比說明。
+
 
 #### ⚙️ 系統管理
 
 不同於電腦軟體，有一些非常單純、重複性高的作業，比如檔案批處理、利用嚴格關鍵字正則表達式檢索內容提取、文件合併分割、定時任務、系統監控、自動備份、轉碼等等都可以直接通過最基礎的系統管理語言來實現。
 📄 **[系統管理指南](docs_tc/system-management.md)** - 系統管理語言指南 - PowerShell/Bash/Python 在不同平台的應用場景、個人開發者實務應用案例、AI 輔助系統自動化
 
+
 #### 💎 通用程式語言
 
 📄 **[通用程式語言指南](docs_tc/general-programming.md)** - 通用程式語言分析 - Ruby/Java 在 AI 時代的定位、為什麼個人開發者應選擇專門化工具、企業級與個人開發的技術選型差異
+
 
 #### 🗄️ 資料庫、RAG
 
 📄 **[資料庫選擇指南](docs_tc/database-choice.md)** - 資料庫選擇指南 - MySQL/MongoDB/PostgreSQL/SQLite 深度對比、關聯式資料庫 vs NoSQL vs 向量資料庫、AI輔助開發時代的資料庫技術選型策略
 
+
 **RAG建製指南系列**：
 - 📄 **[RAG指南（上集）：基礎概念與資料準備](docs_tc/rag-guide-part1-basics.md)** - RAG架構設計、五種分塊策略對比、Embedding模型選擇與微調
+
 - 📄 **[RAG指南（中集）：檢索與生成](docs_tc/rag-guide-part2-retrieval.md)** - 向量索引技術、混合搜尋、重排序機制與多資料庫檢索優化
+
 - 📄 **[RAG指南（下集）：進階應用](docs_tc/rag-guide-part3-advanced.md)** - 五種進階RAG變體、動態重排序引擎與企業級衝突處理策略
+
 - 📄 **[RAG指南（終集）：評估效能、自動學習與系統升級](docs_tc/rag-guide-part4-optimization.md)** - 質量驗證框架、三種評估方法與自動化學習迴圈設計
+
 
 #### 🤖 AI開發與整合
 
 📄 **[LLM 模型選擇指南（還沒寫）](docs_tc/llm-model-selection.md)** - LLM模型選擇指南
+
 📄 **[提示工程指南（還沒寫）](docs_tc/prompt-engineering.md)** - 提示工程實戰指南 -
+
 📄 **[多模態 AI 開發指南（還沒寫）](docs_tc/multimodal-ai-development.md)** - 多模態AI開發指南 - 文字+圖像+語音整合、跨模態應用場景、多模態模型選擇、實作案例分析
+
 📄 **[Vibe Coding 除錯元提示](docs_tc/vibe-coding-debug-meta-prompt.md)** - AI協助開發的時候還是有一些無法避免的、令人惱火的規律，這是讓AI開發工具讀了之後可以稍微管住自己手的prompt
+
 📄 **[AI 開發環境指南（還沒寫）](docs_tc/ai-development-environment.md)** - AI輔助開發環境配置 - Claude Code/Cursor/GitHub Copilot等工具深度對比、工作流優化、最佳實踐配置
+
 📄 **[AI 輔助安全指南（還沒寫）](docs_tc/ai-assisted-security.md)** - AI輔助代碼安全指南 - 自動化安全掃描、漏洞檢測與修復、AI驅動的安全審查、數據隱私保護策略
+
 
 #### 🌐 在實務程式開發的時候AI輔助的問題
 
@@ -282,6 +333,7 @@ LLM帶來的最大革新是顛覆人對知識獲取和內化的方式，能夠�
 📄 **[改善LLM資訊生成模式（還沒寫）](docs_tc/xxx.md)** 
 📄 **[圖表與視覺化工具完全指南](docs_tc/chart-visualization-tools.md)** - Mermaid及Draw.io以及各種代碼驅動圖表生成介紹和對比
 
+
 #### 🔍 數據收集與分析
 
 老馬向世界證明了只要你有LLM，百年官府資料也可以瞬間debug和查貓膩。數據整理和挖掘在AI輔助的時代能力是爆炸的。同時，大數據的爬取難度降低、LLM讓語言壁壘降低、內容生成不再辛苦。
@@ -290,8 +342,11 @@ LLM帶來的最大革新是顛覆人對知識獲取和內化的方式，能夠�
 📄 **[API 整合與數據處理（還沒寫）](docs_tc/xxx.md)**  - 多平台數據聚合、自動報表生成、數據可視化
 📄 **[內容自動化（還沒寫）](docs_tc/xxx.md)**  - 社群媒體發布、郵件營銷、內容管理系統
 📄 **[AI 驅動數據分析指南（還沒寫）](docs_tc/ai-driven-data-analysis.md)** - AI驅動數據分析指南 - LLM輔助數據解讀、自然語言查詢數據庫、智能洞察發現、多模態數據分析技術、預測建模自動化
+
 📄 **[進階網頁爬蟲指南（還沒寫）](docs_tc/advanced-web-scraping.md)** - 進階爬蟲技術指南 - AI輔助反爬蟲突破、實時數據流處理、多語言數據處理、智能驗證碼識別、模擬人類行為
+
 📄 **[商業智能自動化指南（還沒寫）](docs_tc/business-intelligence-automation.md)** - 商業智能自動化指南 - 競品分析自動化、客戶行為分析、財務數據解讀、輿情監控與分析、決策支持系統
+
 
 #### ⚙️ 日常自動化
 
@@ -364,6 +419,7 @@ Vibe Codingとは何か？簡単に言えば、LLMに口頭で指示してプロ
 
 📄 **[深掘り：LLMの真実の姿](docs_jp/llm-limitations-reality.md)** - メディアの誇大広告から技術的現実まで、AGIの4つの大きな課題と人間の認知発達との興味深い対比を詳細に分析します。
 
+
 ## 🛠️ Vibe Codingの応用シナリオ
 
 ### 🚀 プログラミング
@@ -382,47 +438,66 @@ Vibe Codingを行う際は、コードの内容自体に気を取られるので
 
 「ウェブサイトを作って」というのは、多くの人がVibe Codingに足を踏み入れる第一歩でしょう。方向性と内容を説明するだけで、LLMはウェブサイト全体のコードを生成し始め、既存の他人のサイトを模倣して複製することさえ難しくありません。しかし、それは一体どんなフレームワークで、どんな言語のサイトなのでしょうか？ウェブアプリケーションの主流言語やフレームワークについて少しでも知識があれば、指示を出す際により良い選択ができるはずです。
 📄 **[Web開発ガイド](docs_jp/web-development.md)** - どんな言語が使える？フロントエンドとバックエンドの選択肢を素早く比較
+
 📄 **[Web展開ガイド](docs_jp/web-deployment-guide.md)** - なぜ生成されるのがHTMLじゃないの？クライアントサイドレンダリングって何？どんなフレームワークがあるの？
+
 📄 **[Webアプリケーションガイド](docs_jp/web-applications.md)** - Webアプリケーションにはどんなものがある？どんなフレームワークで作れる？
+
 📄 **[JavaScriptアニメーションライブラリガイド](docs_jp/js-animation-libraries.md)** - LLMが生成したページのスタイルがダサくて単調？JSライブラリを読ませて一気にカッコよくしよう！
+
 
 #### 📱 モバイル開発
 
 スマホやiPadが手放せない今、PCのソフトウェアをモバイルに移植したい、あるいは特定の機能に合うアプリが見つからないなど、モバイルアプリは実はPC向けよりも個人に合わせたカスタマイズが必要です。以前はカスタマイズのコストを見積もることさえためらわれましたが、今ではかつてないほど簡単になりました。販売するかどうかは別として、個人利用の需要も非常に大きいです。
 📄 **[モバイル開発ガイド](docs_jp/mobile-development.md)** - ネイティブ、クロスプラットフォームのモバイル開発言語比較、ネイティブでしかできないことは？
 
+
 #### 💻 デスクトップ開発
 
 デスクトップソフトウェアの開発と聞くと壮大なことに聞こえますが、実は生活の至る所で、優れた、専門的で、的確にニーズを解決する小さなソフトウェアが必要です。レポート生成、財務管理、システム監視、単なる整理、システム強化、知識管理、カスタム計算、リマインダーソフトなど...。Claude Code Maxを使い始めてから、毎日新しい小さなツールが生まれていると言っても過言ではありません...
 📄 **[デスクトップ開発ガイド](docs_jp/desktop-development.md)** - デスクトップ開発言語の比較説明。
+
 
 #### ⚙️ システム管理
 
 コンピュータソフトウェアとは異なり、ファイルのバッチ処理、厳密なキーワード正規表現を使用したコンテンツの検索と抽出、ファイルの結合と分割、定期タスク、システム監視、自動バックアップ、トランスコーディングなど、非常に単純で反復性の高い作業は、最も基本的なシステム管理言語を使用して直接実現できます。
 📄 **[システム管理ガイド](docs_jp/system-management.md)** - システム管理言語ガイド - PowerShell/Bash/Pythonの異なるプラットフォームでの応用シーン、個人開発者の実務応用事例、AI支援によるシステム自動化
 
+
 #### 💎 汎用プログラミング言語
 
 📄 **[汎用プログラミング言語ガイド](docs_jp/general-programming.md)** - 汎用プログラミング言語分析 - Ruby/JavaのAI時代における位置づけ、なぜ個人開発者は専門化ツールを選ぶべきか、エンタープライズ開発と個人開発の技術選定の違い
+
 
 #### 🗄️ データベース、RAG
 
 📄 **[データベース選択ガイド](docs_jp/database-choice.md)** - データベース選択ガイド - MySQL/MongoDB/PostgreSQL/SQLiteの詳細比較、リレーショナルデータベース vs NoSQL vs ベクトルデータベース、AI支援開発時代のデータベース技術選定戦略
 
+
 **RAG構築ガイドシリーズ**：
 - 📄 **[RAGガイド（上巻）：基礎概念とデータ準備](docs_jp/rag-guide-part1-basics.md)** - RAGアーキテクチャ設計、5つのチャンキング戦略比較、Embeddingモデルの選択とファインチューニング
+
 - 📄 **[RAGガイド（中巻）：検索と生成](docs_jp/rag-guide-part2-retrieval.md)** - ベクトルインデックス技術、ハイブリッド検索、リランキングメカニズムと複数データベース検索の最適化
+
 - 📄 **[RAGガイド（下巻）：高度な応用](docs_jp/rag-guide-part3-advanced.md)** - 5つの高度なRAGバリアント、動的リランキングエンジンとエンタープライズレベルの競合解決戦略
+
 - 📄 **[RAGガイド（終巻）：性能評価、自動学習とシステムアップグレード](docs_jp/rag-guide-part4-optimization.md)** - 品質検証フレームワーク、3つの評価方法と自動化学習ループの設計
+
 
 #### 🤖 AI開発と統合
 
 📄 **[LLMモデル選択ガイド（未執筆）](docs_jp/llm-model-selection.md)** - LLMモデル選択ガイド
+
 📄 **[プロンプトエンジニアリングガイド（未執筆）](docs_jp/prompt-engineering.md)** - プロンプトエンジニアリング実践ガイド -
+
 📄 **[マルチモーダルAI開発ガイド（未執筆）](docs_jp/multimodal-ai-development.md)** - マルチモーダルAI開発ガイド - テキスト+画像+音声の統合、クロスモーダル応用シーン、マルチモーダルモデルの選択、実装事例分析
+
 📄 **[Vibe Codingデバッグ用メタプロンプト](docs_jp/vibe-coding-debug-meta-prompt.md)** - AI支援開発には避けられない、イライラするパターンがあります。これはAI開発ツールに読ませて、少し自制させるためのプロンプトです。
+
 📄 **[AI開発環境ガイド（未執筆）](docs_jp/ai-development-environment.md)** - AI支援開発環境の構築 - Claude Code/Cursor/GitHub Copilotなどのツールの詳細比較、ワークフローの最適化、ベストプラクティスの設定
+
 📄 **[AI支援セキュリティガイド（未執筆）](docs_jp/ai-assisted-security.md)** - AI支援コードセキュリティガイド - 自動化されたセキュリティスキャン、脆弱性の検出と修正、AI駆動のセキュリティ監査、データプライバシー保護戦略
+
 
 #### 🌐 実務のプログラミング開発におけるAI支援の問題点
 
@@ -430,6 +505,7 @@ todo問題を解析する際、LLMは複数のtodoを統合する方法がわか
 人間は絶えずタスクを分割し続けなければなりません。
 コーディングの思考方向とは逆に、コーディングは微小な部分から構築していくのに対し、AI支援プログラミングでは全体のフレームワークから常に分割していく必要があります。
 📄 **[伝統的な開発ワークフローとAI支援ワークフロー（未執筆）](docs_jp/ai-assisted-security.md)** - ボトムアップの構築からトップダウンの分解への思考転換、要求を効果的に分割する方法、AIへの過度な依存による技術的負債を回避する方法
+
 
 ### 📝 知識管理と研究
 
@@ -440,25 +516,35 @@ LLMがもたらした最大の革新は、人々が知識を獲得し内面化�
 📄 **[幻覚を減らす5つのモジュール（未執筆）](docs_jp/xxx.md)**
 📄 **[LLM情報生成パターンの改善（未執筆）](docs_jp/xxx.md)**
 📄 **[グラフ・可視化ツール完全ガイド](docs_jp/chart-visualization-tools.md)** - Mermaid、Draw.io、および各種コード駆動グラフ生成ツールの紹介と比較
+
 
 #### 🔍 データ収集と分析
 
 イーロン・マスク氏は、LLMさえあれば、100年前の政府資料でさえ瞬時にデバッグし、不正を発見できることを世界に証明しました。AI支援の時代において、データ整理とマイニングの能力は爆発的に向上しています。同時に、ビッグデータのスクレイピングの難易度は下がり、LLMによって言語の壁は低くなり、コンテンツ生成も苦労しなくなりました。
 恐れるべきは、技術がないことではなく、アイデアがないことです。
 📄 **[ウェブスクレイピングとデータマイニング（未執筆）](docs_jp/xxx.md)** - Eコマースの価格監視、ソーシャルメディア分析、ニュース情報収集
+
 📄 **[API統合とデータ処理（未執筆）](docs_jp/xxx.md)** - マルチプラットフォームのデータ集約、自動レポート生成、データ可視化
+
 📄 **[コンテンツの自動化（未執筆）](docs_jp/xxx.md)** - ソーシャルメディアへの投稿、メールマーケティング、コンテンツ管理システム
+
 📄 **[AI駆動データ分析ガイド（未執筆）](docs_jp/ai-driven-data-analysis.md)** - AI駆動データ分析ガイド - LLMによるデータ解釈支援、自然言語でのデータベースクエリ、インテリジェントな洞察発見、マルチモーダルデータ分析技術、予測モデリングの自動化
+
 📄 **[高度なウェブスクレイピングガイド（未執筆）](docs_jp/advanced-web-scraping.md)** - 高度なスクレイピング技術ガイド - AI支援によるアンチスクレイピング突破、リアルタイムデータストリーム処理、多言語データ処理、インテリジェントなCAPTCHA認識、人間行動のシミュレーション
+
 📄 **[ビジネスインテリジェンス自動化ガイド（未執筆）](docs_jp/business-intelligence-automation.md)** - ビジネスインテリジェンス自動化ガイド - 競合分析の自動化、顧客行動分析、財務データ解釈、世論監視と分析、意思決定支援システム
+
 
 #### ⚙️ 日常の自動化
 
 ノーコード系のワークフロー自動化ツールが台頭したことは、人間がコンピュータの前で繰り返す作業が本当に多いことを証明しています。元々、オフィスオートメーションは厳格なプロセス設定に依存していましたが、ノーコード系がLLMを導入したことで、ウェブサイト上のいくつかのアイコンをドラッグ＆ドロップするだけでワークフローの設定が解決できるようになりました。Vibe Codingツールはさらに一歩進んで、オンラインサービスだけでなく、自分のコンピュータ内のタスクも自動化できます。しかも、方法に制限はなく、自分のニーズに合わせて必要なバッチ操作やプロセス化ツールをカスタマイズできます。
 
 📄 **[すぐに実現できるオフィスオートメーション（未執筆）](docs_jp/xxx.md)** - 会議議事録の整理と配布、メールのインテリジェントな分類と返信提案、カレンダーのインテリジェントなスケジュール調整と競合解決、請求書の自動認識と分類、経費精算プロセスの自動化、財務諸表の自動生成
+
 📄 **[すぐに実現できるソーシャルメディアオートメーション（未執筆）](docs_jp/xxx.md)** - ソーシャルメディアの投稿予約、コンテンツ素材の自動整理、多言語コンテンツの自動翻訳とローカライズ
+
 📄 **[既存サービスシステムとの連携（未執筆）](docs_jp/xxx.md)** - サードパーティサービスとの連携、Webhookによる自動トリガー、マイクロサービス間の自動調整
+
 
 **インテリジェント化のアップグレード**：
 - **RPAとAIの結合** - 従来のRPAツール（UiPath/Automation Anywhere）とLLMの統合、インテリジェントな意思決定の自動化、例外処理の自動化
@@ -484,469 +570,5 @@ IssueやPull Requestを提出して、このプロジェクトの改善にご協
 
 ## 📝 ライセンス
 
-このプロジェクトはMITライセンスの下でライセンスされています - 詳細は[LICENSE](LICENSE)ファイルをご覧ください。
-
-
-## 📖 Project Introduction
-
-This is a technical repository and mindset reference for users of Vibe Coding tools. The application of Vibe Coding is broad and extends beyond just programming, so the topics covered here may be quite diverse.
-Most online articles on various technologies are written from the perspective of programmers or note-taking experts, with few approaching them from the mindset of AI-assisted work. Therefore, I hope this project can serve as a starting point to inspire more ideas.
-May everyone enjoy "Vibe Coding" without creating a pile of things that are terrifying in terms of security and maintainability.
-The author is also a beginner, so let's pay off the technical debt generated by AI assistance together~
-
-## 🎯 What is Vibe Coding?
-
-What is Vibe Coding? To put it simply and bluntly, it's about directing an LLM to write programs, build websites, and create content using natural language.
-The core of such a tool is a human-computer interaction interface, one (or several) large language models,
-
-And! **The human brain!!** That's right, the human is still the most important part. As long as you dare to dream it, you can Vibe it!
-
-## 🎯 Is Vibe Coding or LLM Really That Magical?
-
-Seeing the media hype about AI replacing humans every day, honestly, LLMs are still far from true AI or true AGI.
-
-I quite agree with Meta's Yann LeCun, who says that for LLMs to evolve into AGI, they are missing at least four things: understanding the physical world, having memory, reasoning ability, and planning ability. Everyone is currently in a frenzy over AI Agents, but the essence is still about training large models. Interestingly, these four abilities correspond to the developmental process of a human from infancy to adulthood—first understanding the world, then forming memories, and finally developing advanced reasoning and planning (which not all humans possess XD).
-
-At this stage, LLMs can perform some tasks, data organization, and programming for humans, but they have not yet acquired core human abilities.
-
-📄 **[In-depth Discussion: The Reality of LLMs](docs_en/llm-limitations-reality.md)** - From media hype to technical reality, a detailed analysis of the four major AGI challenges and their interesting parallels with human cognitive development.
-
-## 🛠️ Vibe Coding Application Scenarios
-
-### 🚀 Programming
-
-The most common application of Vibe Coding is, of course, programming.
-Quickly developing and launching websites and applications, creating small batch programs for Windows to simplify work, etc.
-Unlike traditional programmers who have to consider development cycles and the learning curve of a language, Vibe Coding development focuses more on performance, synergy, and suitability for the scenario when choosing languages and frameworks. While no longer bound by any single language, the challenge and wisdom lie in choosing the most suitable one.
-Here are some introductions and comparisons of mainstream development languages and their applications in the context of AI-assisted development.
-
-When Vibe Coding, you should no longer focus on the code content itself, but rather on understanding the pros and cons and choices of the overall development architecture, frameworks, languages, or LLM applications.
-
-For commercial applications, Vibe Coding can quickly deliver a prototype (for functionality confirmation) but struggles to deliver the final code.
-For personal applications, it can mindlessly complete programs for personal or one-time use. It can assist in developing content that is ready for personal-level deployment.
-
-#### 🌐 Web Development
-
-"Help me build a website" is likely the first step for many into Vibe Coding. By just describing the direction and content, an LLM can start generating the code for an entire website, and it's even easy to have it replicate an existing site. But what kind of framework and language did it actually use? Having some knowledge of mainstream web application languages and frameworks will surely lead to better choices when giving commands.
-📄 **[Web Development Guide](docs_en/web-development.md)** - What languages are available? A quick comparison of front-end and back-end choices.
-📄 **[Web Deployment Guide](docs_en/web-deployment-guide.md)** - Why isn't the output HTML? What is client-side rendering? What frameworks are there?
-📄 **[Web Applications Guide](docs_en/web-applications.md)** - What are web applications? What frameworks can be used to build them?
-📄 **[JavaScript Animation Libraries Guide](docs_en/js-animation-libraries.md)** - Is the style of LLM-generated pages too ugly and monotonous? Let it read a JS library to make it awesome!
-
-#### 📱 Mobile Development
-
-With phones and iPads always in hand, whether you need to port desktop software to mobile or can't find the right app for a specific function, mobile apps actually require more customization than desktop software. In the past, the cost of customization was prohibitive, but now it has become unprecedentedly simple. Whether you plan to sell it or not, there is a huge demand for personal use.
-📄 **[Mobile Development Guide](docs_en/mobile-development.md)** - A comparison of native and cross-platform mobile development languages, and what can only be done with native development.
-
-#### 💻 Desktop Development
-
-Developing desktop software sounds grand, but in reality, life is full of needs for good, vertical, and precise small software tools. Whether it's for report generation, financial management, system monitoring, simple organization, system enhancement, knowledge management, custom calculations, reminder software, etc. I can say that since I started using Claude Code Max, new small tools are born every day...
-📄 **[Desktop Development Guide](docs_en/desktop-development.md)** - A comparative guide to desktop development languages.
-
-#### ⚙️ System Management
-
-Unlike computer software, some very simple and highly repetitive tasks, such as file batch processing, content extraction using strict keyword regular expressions, file merging/splitting, scheduled tasks, system monitoring, automatic backups, transcoding, etc., can be implemented directly through the most basic system management languages.
-📄 **[System Management Guide](docs_en/system-management.md)** - A guide to system management languages - Application scenarios for PowerShell/Bash/Python on different platforms, practical application cases for individual developers, and AI-assisted system automation.
-
-#### 💎 General-Purpose Programming Languages
-
-📄 **[General Programming Guide](docs_en/general-programming.md)** - Analysis of general-purpose programming languages - The positioning of Ruby/Java in the AI era, why individual developers should choose specialized tools, and the differences in technology selection for enterprise and personal development.
-
-#### 🗄️ Databases & RAG
-
-📄 **[Database Choice Guide](docs_en/database-choice.md)** - A guide to choosing databases - In-depth comparison of MySQL/MongoDB/PostgreSQL/SQLite, relational databases vs. NoSQL vs. vector databases, and strategies for database technology selection in the era of AI-assisted development.
-
-**RAG Implementation Guide Series:**
-- 📄 **[RAG Guide (Part 1): Basic Concepts and Data Preparation](docs_en/rag-guide-part1-basics.md)** - RAG architecture design, comparison of five chunking strategies, and selection and fine-tuning of Embedding models.
-- 📄 **[RAG Guide (Part 2): Retrieval and Generation](docs_en/rag-guide-part2-retrieval.md)** - Vector indexing techniques, hybrid search, re-ranking mechanisms, and multi-database retrieval optimization.
-- 📄 **[RAG Guide (Part 3): Advanced Applications](docs_en/rag-guide-part3-advanced.md)** - Five advanced RAG variants, dynamic re-ranking engines, and enterprise-level conflict resolution strategies.
-- 📄 **[RAG Guide (Part 4): Performance Evaluation, Automated Learning, and System Upgrades](docs_en/rag-guide-part4-optimization.md)** - Quality validation frameworks, three evaluation methods, and automated learning loop design.
-
-#### 🤖 AI Development and Integration
-
-📄 **[LLM Model Selection Guide (Not Written Yet)](docs_en/llm-model-selection.md)** - A guide to choosing LLM models.
-📄 **[Prompt Engineering Guide (Not Written Yet)](docs_en/prompt-engineering.md)** - A practical guide to prompt engineering.
-📄 **[Multimodal AI Development Guide (Not Written Yet)](docs_en/multimodal-ai-development.md)** - A guide to multimodal AI development - Integration of text, images, and speech, cross-modal application scenarios, selection of multimodal models, and analysis of implementation cases.
-📄 **[Vibe Coding Debugging Meta-Prompt](docs_en/vibe-coding-debug-meta-prompt.md)** - There are still some unavoidable and annoying patterns when using AI for development. This is a prompt to make the AI development tool behave a little better.
-📄 **[AI Development Environment Guide (Not Written Yet)](docs_en/ai-development-environment.md)** - Configuring an AI-assisted development environment - In-depth comparison of tools like Claude Code/Cursor/GitHub Copilot, workflow optimization, and best practice configurations.
-📄 **[AI-Assisted Security Guide (Not Written Yet)](docs_en/ai-assisted-security.md)** - A guide to AI-assisted code security - Automated security scanning, vulnerability detection and remediation, AI-driven security audits, and data privacy protection strategies.
-
-#### 🌐 Problems with AI Assistance in Practical Software Development
-
-When parsing "to-do" items, LLMs don't know how to synthesize multiple items and may generate duplicate pull requests.
-Humans must continuously break down tasks.
-Contrary to the thinking process in coding, which starts from small components and builds up, AI-assisted programming requires breaking down the overall framework from the top down.
-📄 **[Traditional vs. AI-Assisted Development Workflows (Not Written Yet)](docs_en/ai-assisted-security.md)** - The mental shift from bottom-up construction to top-down decomposition, how to effectively break down requirements, and how to avoid the technical debt caused by over-reliance on AI.
-
-### 📝 Knowledge Management and Research
-
-The biggest revolution brought by LLMs is the subversion of how humans acquire and internalize knowledge. The ability to quickly obtain accurate research reports and information through simple and continuous questioning is a benefit. However, at the same time, "hallucinations" lead to the proliferation of false information, and learning how to distinguish truth from falsehood to avoid being misled has become a necessary new skill, which is a drawback.
-How can we leverage the benefits and avoid the harms to manage notes, build knowledge bases, conduct research, and automate searches while filtering the results?
-📄 **[Creating a Personal Second Brain (Not Written Yet)](docs_en/xxx.md)**
-📄 **[Building a Research Assistant (Not Written Yet)](docs_en/xxx.md)**
-📄 **[Five Modules to Reduce Hallucinations (Not Written Yet)](docs_en/xxx.md)**
-📄 **[Improving LLM Information Generation Patterns (Not Written Yet)](docs_en/xxx.md)**
-📄 **[The Complete Guide to Chart & Visualization Tools](docs_en/chart-visualization-tools.md)** - An introduction and comparison of Mermaid, Draw.io, and various code-driven chart generation tools.
-
-#### 🔍 Data Collection and Analysis
-
-The "Old Horse" (a reference) has shown the world that with an LLM, you can instantly debug and find discrepancies in a century's worth of government data. The power of data organization and mining has exploded in the era of AI assistance. At the same time, the difficulty of large-scale data scraping has decreased, language barriers have been lowered by LLMs, and content generation is no longer a chore.
-The only fear is the lack of ideas, not the lack of technology to achieve them.
-📄 **[Web Scraping and Data Mining (Not Written Yet)](docs_en/xxx.md)** - E-commerce price monitoring, social media analysis, and news information collection.
-📄 **[API Integration and Data Processing (Not Written Yet)](docs_en/xxx.md)** - Multi-platform data aggregation, automated report generation, and data visualization.
-📄 **[Content Automation (Not Written Yet)](docs_en/xxx.md)** - Social media posting, email marketing, and content management systems.
-📄 **[AI-Driven Data Analysis Guide (Not Written Yet)](docs_en/ai-driven-data-analysis.md)** - A guide to AI-driven data analysis - LLM-assisted data interpretation, natural language database queries, intelligent insight discovery, multimodal data analysis techniques, and automated predictive modeling.
-📄 **[Advanced Web Scraping Guide (Not Written Yet)](docs_en/advanced-web-scraping.md)** - A guide to advanced scraping techniques - AI-assisted anti-scraping breakthroughs, real-time data stream processing, multilingual data processing, intelligent CAPTCHA recognition, and simulation of human behavior.
-📄 **[Business Intelligence Automation Guide (Not Written Yet)](docs_en/business-intelligence-automation.md)** - A guide to business intelligence automation - Automated competitor analysis, customer behavior analysis, financial data interpretation, public opinion monitoring and analysis, and decision support systems.
-
-#### ⚙️ Daily Automation
-
-The rise of no-code workflow automation tools proves that humans perform a lot of repetitive tasks in front of the computer. While office automation originally relied on strict process settings, integrating LLMs with no-code tools allows workflows to be configured by simply dragging and dropping a few icons on a website. Vibe Coding tools go a step further: not only can online services be automated, but so can tasks on your own computer. Furthermore, the methods are not limited; you can customize the batch operations and workflow tools you need according to your own requirements.
-
-📄 **[Office Automation You Can Implement Immediately (Not Written Yet)](docs_en/xxx.md)** - Meeting minute organization and distribution, intelligent email classification and reply suggestions, intelligent calendar scheduling and conflict resolution, automated invoice recognition and classification, automated expense reimbursement processes, and automated financial report generation.
-📄 **[Social Media Automation You Can Implement Immediately (Not Written Yet)](docs_en/xxx.md)** - Scheduled social media posting, automated content material organization, and automated multilingual content translation and localization.
-📄 **[Integrating with Original Service Systems (Not Written Yet)](docs_en/xxx.md)** - Third-party service integration, automated webhook triggers, and automated coordination between microservices.
-
-**Intelligent Upgrades:**
-- **RPA and AI Integration** - Integration of traditional RPA tools (UiPath/Automation Anywhere) with LLMs, intelligent decision automation, and automated exception handling.
-- **Self-Learning Automation Systems** - Automation suggestions based on user behavior patterns, anomaly detection and auto-correction, and automated performance optimization adjustments.
-- **Voice-Controlled Automation** - Natural language command execution, voice-to-automation script conversion, and voice-controlled home and office integration.
-- **Predictive Automation** - Demand forecasting based on historical data, automated resource allocation, and intelligent scheduling optimization.
-
-#### ⚙️ Audio/Video Processing
-
-#### 🎮 Creativity and Experimentation
-
-There is so much more that can be done, especially in gaming, where there is surprisingly little integration with AI. It's a peaceful and quiet landscape... XD
-
-- **Small Games and Interactive Applications** - Simple game development, interactive art, and data visualization.
-- **IoT and Hardware Control** - Smart homes, sensor data processing, and automated control.
-- **Machine Learning Experiments** - Small-scale AI models, image recognition, and natural language processing.
-
-## 🎯 Project Goals
-
-## 🤝 Contribution Guidelines
-
-Feel free to submit Issues and Pull Requests to help improve this project!
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
----
----
-
-# Vibe Code Karma (AI債贖罪券)
-
-> "Redeeming the karma from your vibe-driven code, one commit at a time."
-> 一次一個 commit，償還技術債XD。
->
-> "Ask not what AI can do for you, ask what you can do for AI."
-> 你不要問AI為你做了什麼，要問你為AI做了什麼。
-
-## 📖 專案簡介
-
-這是一個針對Vibe Coding工具使用者的技術庫和思維參考。Vibe Coding的應用範圍很廣，其實也不止寫程式。所以這裡的涉獵可能也很雜。
-網上針對各種技術的文章大多是從程序員、筆記專家這樣的角度切入，而少有從AI輔助工作的思維角度切入的。所以希望能拋磚引玉。
-祝福大家都能享受「Vibe Coding」但不要產生一堆資安和可維護性都很可怕的東西。
-作者也是大小白，一起來償還AI輔助產生的技術債吧~
-
-## 🎯 什麼是 Vibe Coding？
-
-Vibe Coding是什麼？簡單暴力的說法就是用嘴巴指揮LLM來寫程式、寫網站、寫內容。
-這種工具的核心是有一個人機交互界面、以及一個（或數個）大語言模型，
-
-還有！**人的大腦！！**沒錯人還是最重要的，只要你敢想，就可以Vibe！
-
-## 🎯 Vibe Coding或者說LLM真有那麼神？
-
-看媒體天天吹AI要替代人類了，說真的，LLM離真正的AI、或真正的AGI還遠著。
-
-我相當同意Meta楊立昆的說法，LLM要進化成AGI至少還缺四樣東西：理解物理世界、擁有記憶、推理能力、規劃能力。現在大家都在AI Agent上瘋狂內卷，但本質還是在調教大模型。有趣的是，這四個能力剛好對應人類從嬰兒到成人的發展歷程 —— 先理解世界，再形成記憶，最後才有高級的推理規劃（也不是所有人類都具備XD）。
-
-現階段的LLM能夠代替人類去執行部分作業、資料整理、編程，但完全還未擁有人類的核心能力。
-
-📄 **[深入探討：LLM的真實面貌](docs_tc/llm-limitations-reality.md)** - 從媒體炒作到技術現實，詳細分析AGI四大挑戰與人類認知發展的有趣對照
-
-## 🛠️ Vibe Coding 應用場景
-
-### 🚀 編程
-
-Vibe Coding最常見的應用當然還是編程。
-快速開發上線網站、應用，自己做一個windows批量小程式讓工作更簡便等……
-不同於傳統程序員要考慮開發週期、語言的學習曲線，Vibe Coding的開發在語言、框架等選擇上更考慮效能、搭配，以及適用場景。不用再被哪個語言束縛的同時，要如何選擇最適合的反而是難度和智慧所在。
-這裡提供一些現在主流的開發語言介紹、對比，以及它們在AI輔助開發的場景下的應用。
-
-Vibe Coding時應該不用再去關心代碼內容，而更應該注重是否了解整體開發的架構、框架、語言或LLM應用的優劣和選擇。
-
-Vibe Coding在商業應用的時候，能夠快速完成原型的交付（功能確認），但很難完成最後的代碼交付。
-對個人應用來說，可以無腦完成個人用或者一次性用的程式。可以輔助開發個人程度可上線的內容。
-
-#### 🌐 Web 開發
-
-「幫我做個網站」相信是許多人踏入Vibe Coding的第一步，只要說明方向和內容，LLM就會開始生成一整個網站的代碼，甚至要它模仿現有其他的人的網站復刻一個也毫無難度。但它到底做了一個什麼框架、什麼語言的網站呢？如果對網路應用的主流語言、框架有一些認識，相信能夠在指揮的時候有更好的選擇。
-📄 **[Web 開發指南](docs_tc/web-development.md)** - 有哪些語言可用？快速對比前端、後端選擇
-📄 **[Web 部署指南](docs_tc/web-deployment-guide.md)** - 為什麼生成的不是HTML？什麼是客戶端渲染？都有哪些框架？
-📄 **[Web 應用指南](docs_tc/web-applications.md)** - Web應用都有哪些？可以用什麼框架做？
-📄 **[JavaScript 動畫庫指南](docs_tc/js-animation-libraries.md)** - LLM生成的頁面風格太醜太單一？讓它讀JS庫直接帥炸！
-
-#### 📱 移動開發
-
-手機、iPad不離手，無論是電腦的軟體要複製到移動端、還是有個功能就是找不到適合的App，移動端的App其實比電腦端更需要按人定制，以前對定制的成本根本不敢估計，現在變得前所未有的簡單。先不論要不要上線賣錢，自己用需求也普遍很大。
-📄 **[移動開發指南](docs_tc/mobile-development.md)** - 原生、跨平台移動開發語言對比、哪些只有原生可以做？
-
-#### 💻 桌面開發
-
-開發桌面軟體，聽起來很偉大，其實生活隨處可見都需要好的、垂直的、精準解決需求的小軟體。無論是報表生成、財務管理、系統監控、只是整理、系統增強、知識管理、定制計算、提醒軟體等等……。可以說自從我開了Claude Code Max之後，每天都有小的新工具被生出來……
-📄 **[桌面開發指南](docs_tc/desktop-development.md)** - 桌面開發語言對比說明。
-
-#### ⚙️ 系統管理
-
-不同於電腦軟體，有一些非常單純、重複性高的作業，比如檔案批處理、利用嚴格關鍵字正則表達式檢索內容提取、文件合併分割、定時任務、系統監控、自動備份、轉碼等等都可以直接通過最基礎的系統管理語言來實現。
-📄 **[系統管理指南](docs_tc/system-management.md)** - 系統管理語言指南 - PowerShell/Bash/Python 在不同平台的應用場景、個人開發者實務應用案例、AI 輔助系統自動化
-
-#### 💎 通用程式語言
-
-📄 **[通用程式語言指南](docs_tc/general-programming.md)** - 通用程式語言分析 - Ruby/Java 在 AI 時代的定位、為什麼個人開發者應選擇專門化工具、企業級與個人開發的技術選型差異
-
-#### 🗄️ 資料庫、RAG
-
-📄 **[資料庫選擇指南](docs_tc/database-choice.md)** - 資料庫選擇指南 - MySQL/MongoDB/PostgreSQL/SQLite 深度對比、關聯式資料庫 vs NoSQL vs 向量資料庫、AI輔助開發時代的資料庫技術選型策略
-
-**RAG建製指南系列**：
-- 📄 **[RAG指南（上集）：基礎概念與資料準備](docs_tc/rag-guide-part1-basics.md)** - RAG架構設計、五種分塊策略對比、Embedding模型選擇與微調
-- 📄 **[RAG指南（中集）：檢索與生成](docs_tc/rag-guide-part2-retrieval.md)** - 向量索引技術、混合搜尋、重排序機制與多資料庫檢索優化
-- 📄 **[RAG指南（下集）：進階應用](docs_tc/rag-guide-part3-advanced.md)** - 五種進階RAG變體、動態重排序引擎與企業級衝突處理策略
-- 📄 **[RAG指南（終集）：評估效能、自動學習與系統升級](docs_tc/rag-guide-part4-optimization.md)** - 質量驗證框架、三種評估方法與自動化學習迴圈設計
-
-#### 🤖 AI開發與整合
-
-📄 **[LLM 模型選擇指南（還沒寫）](docs_tc/llm-model-selection.md)** - LLM模型選擇指南
-📄 **[提示工程指南（還沒寫）](docs_tc/prompt-engineering.md)** - 提示工程實戰指南 -
-📄 **[多模態 AI 開發指南（還沒寫）](docs_tc/multimodal-ai-development.md)** - 多模態AI開發指南 - 文字+圖像+語音整合、跨模態應用場景、多模態模型選擇、實作案例分析
-📄 **[Vibe Coding 除錯元提示](docs_tc/vibe-coding-debug-meta-prompt.md)** - AI協助開發的時候還是有一些無法避免的、令人惱火的規律，這是讓AI開發工具讀了之後可以稍微管住自己手的prompt
-📄 **[AI 開發環境指南（還沒寫）](docs_tc/ai-development-environment.md)** - AI輔助開發環境配置 - Claude Code/Cursor/GitHub Copilot等工具深度對比、工作流優化、最佳實踐配置
-📄 **[AI 輔助安全指南（還沒寫）](docs_tc/ai-assisted-security.md)** - AI輔助代碼安全指南 - 自動化安全掃描、漏洞檢測與修復、AI驅動的安全審查、數據隱私保護策略
-
-#### 🌐 在實務程式開發的時候AI輔助的問題
-
-解析todo問題的時候LLM不知道怎麼綜合多個todo，可能產生重複的PR
-人必須不停地切分。
-與Coding的思考方向相反，Coding的時候是從微小開始構築，AI輔助編程的時候需要從整體框架一直切分。
-📄 **[傳統開發工作流與AI輔助工作流（還沒寫）](docs_tc/ai-assisted-security.md)**  - 從底層構建到頂層分解的思維轉變、如何有效地進行需求拆分、避免過度依賴AI導致的技術債務
-
-
-### 📝 知識管理與研究
-
-LLM帶來的最大革新是顛覆人對知識獲取和內化的方式，能夠通過簡易的提問和連續追問快速獲得準確的研究報告和資訊，這是利。但同時也因為「幻覺」讓假資料橫行，如何區分真偽避免被誤導又成為了必須學習的新技能，此為弊。
-要如何趨利避害去完成筆記、知識庫的整理、研究和自動搜索但篩選結果？
-📄 **[個人第二大腦創建（還沒寫）](docs_tc/xxx.md)** 
-📄 **[研究助手構建（還沒寫）](docs_tc/xxx.md)** 
-📄 **[降低幻覺的五個模塊（還沒寫）](docs_tc/xxx.md)** 
-📄 **[改善LLM資訊生成模式（還沒寫）](docs_tc/xxx.md)** 
-📄 **[圖表與視覺化工具完全指南](docs_tc/chart-visualization-tools.md)** - Mermaid及Draw.io以及各種代碼驅動圖表生成介紹和對比
-
-#### 🔍 數據收集與分析
-
-老馬向世界證明了只要你有LLM，百年官府資料也可以瞬間debug和查貓膩。數據整理和挖掘在AI輔助的時代能力是爆炸的。同時，大數據的爬取難度降低、LLM讓語言壁壘降低、內容生成不再辛苦。
-怕的只是沒有思路，不怕沒有技術可以達成。
-📄 **[網頁爬蟲與數據挖掘（還沒寫）](docs_tc/xxx.md)**  - 電商價格監控、社群媒體分析、新聞資訊收集
-📄 **[API 整合與數據處理（還沒寫）](docs_tc/xxx.md)**  - 多平台數據聚合、自動報表生成、數據可視化
-📄 **[內容自動化（還沒寫）](docs_tc/xxx.md)**  - 社群媒體發布、郵件營銷、內容管理系統
-📄 **[AI 驅動數據分析指南（還沒寫）](docs_tc/ai-driven-data-analysis.md)** - AI驅動數據分析指南 - LLM輔助數據解讀、自然語言查詢數據庫、智能洞察發現、多模態數據分析技術、預測建模自動化
-📄 **[進階網頁爬蟲指南（還沒寫）](docs_tc/advanced-web-scraping.md)** - 進階爬蟲技術指南 - AI輔助反爬蟲突破、實時數據流處理、多語言數據處理、智能驗證碼識別、模擬人類行為
-📄 **[商業智能自動化指南（還沒寫）](docs_tc/business-intelligence-automation.md)** - 商業智能自動化指南 - 競品分析自動化、客戶行為分析、財務數據解讀、輿情監控與分析、決策支持系統
-
-#### ⚙️ 日常自動化
-
-nocode類workflow自動化工具能夠崛起，證明了人類在電腦前重複操作的作業真的很多。原本辦公室自動化依賴嚴格的流程設定，nocode類接入LLM讓workflow的設定變得可以通過網站上的幾個icon拖來拖去就解決。Vibe Coding工具更進一步，不只是網上的服務可以自動化對接，自己電腦裡的也可以，而且不受限方式，可以依照自己的需求來自定義需要的批量操作、流程化工具。
-
-📄 **[立刻可以實現的辦公室自動化（還沒寫）](docs_tc/xxx.md)**  - 會議記錄整理與分發、郵件智能分類與回覆建議、行事曆智能安排與衝突解決、發票自動識別與分類、報銷流程自動化、財務報表自動生成
-📄 **[立刻可以實現的自媒體自動化（還沒寫）](docs_tc/xxx.md)**  - 社群媒體排程發布、內容素材自動整理、多語言內容自動翻譯與在地化
-📄 **[串接原服務系統（還沒寫）](docs_tc/xxx.md)**  - 第三方服務串接、Webhook自動觸發、微服務間自動協調
-
-
-**智能化升級**：
-- **RPA與AI結合** - 傳統RPA工具（UiPath/Automation Anywhere）與LLM整合、智能決策自動化、異常處理自動化
-- **自學習自動化系統** - 基於使用者行為模式的自動化建議、異常檢測與自動修正、效能優化自動調整
-- **語音控制自動化** - 自然語言指令執行、語音轉自動化腳本、聲控家居與辦公整合
-- **預測性自動化** - 基於歷史數據的需求預測、自動資源調配、智能排程優化
-
-#### ⚙️ 影音處理
-
-#### 🎮 創意與實驗
-
-還有很多很多可以做，尤其遊戲對接現在怎麼這麼少和AI整合的，一片歲月靜好……XD
-
-- **小型遊戲與互動應用** - 簡單遊戲開發、互動藝術、數據可視化
-- **IoT 與硬件控制** - 智能家居、感測器數據處理、自動化控制
-- **機器學習實驗** - 小型AI模型、圖像識別、自然語言處理
-
-## 🎯 專案目標
-
-## 🤝 貢獻指南
-
-歡迎提交 Issue 和 Pull Request 來幫助改善這個專案！
-
-## 📝 授權條款
-
-本專案採用 MIT 授權條款 - 詳見 [LICENSE](LICENSE) 檔案
-
----
----
----
-
-# Vibe Code Karma
-
-> "Redeeming the karma from your vibe-driven code, one commit at a time."
-> 「Vibeで書いたコードのカルマを、コミット一つで返済する。」
->
-> "Ask not what AI can do for you, ask what you can do for AI."
-> 「AIがあなたのために何をしてくれるかを問うな、あなたがAIのために何ができるかを問え。」
-
-## 📖 プロジェクト紹介
-
-これはVibe Codingツールのユーザー向けの技術リポジトリおよび思考のリファレンスです。Vibe Codingの応用範囲は広く、プログラミングに限りません。そのため、ここで扱うトピックも多岐にわたる可能性があります。
-インターネット上の様々な技術に関する記事の多くは、プログラマーやノート作成の専門家といった視点から書かれていますが、AI支援作業という思考の視点からアプローチするものは少ないです。したがって、このプロジェクトがたたき台となり、より多くのアイデアを触発できればと願っています。
-皆さんが「Vibe Coding」を楽しみつつも、セキュリティや保守性が恐ろしいものを大量に生み出さないことを願っています。
-作者も初心者ですので、AI支援によって生じた技術的負債を一緒に返済していきましょう〜
-
-## 🎯 Vibe Codingとは？
-
-Vibe Codingとは何か？簡単に言えば、LLMに口頭で指示してプログラムを書かせたり、ウェブサイトを構築させたり、コンテンツを作成させたりすることです。
-この種のツールの核心は、人間とコンピュータの対話インターフェースと、一つ（または複数）の大規模言語モデルです。
-
-そして！**人間の脳！！**そうです、人間が依然として最も重要です。あなたが思い描く限り、Vibeすることができるのです！
-
-## 🎯 Vibe CodingやLLMは本当にそんなにすごいのか？
-
-メディアが毎日AIが人間を代替すると騒いでいますが、正直なところ、LLMは真のAIやAGIにはまだほど遠いです。
-
-私はMetaのヤン・ルカン氏の意見に非常に同意します。LLMがAGIに進化するためには、少なくとも4つの要素が欠けています：物理世界の理解、記憶、推論能力、計画能力です。現在、誰もがAIエージェントで競い合っていますが、本質的にはまだ大規模モデルの調整に過ぎません。興味深いことに、これら4つの能力は、人間が乳児から成人へと成長する過程と一致しています——まず世界を理解し、次に記憶を形成し、最後に高度な推論と計画能力を身につける（もっとも、すべての人間がこれを備えているわけではありませんがXD）。
-
-現段階のLLMは、人間の一部の作業、データ整理、プログラミングを代行できますが、人間の中核的な能力はまだ全く備えていません。
-
-📄 **[深掘り：LLMの真実の姿](docs_jp/llm-limitations-reality.md)** - メディアの誇大広告から技術的現実まで、AGIの4つの大きな課題と人間の認知発達との興味深い対比を詳細に分析します。
-
-## 🛠️ Vibe Codingの応用シナリオ
-
-### 🚀 プログラミング
-
-Vibe Codingの最も一般的な応用はもちろんプログラミングです。
-ウェブサイトやアプリケーションを迅速に開発・公開したり、作業を簡略化するためにWindows用の小さなバッチプログラムを自作したりするなど...
-従来のプログラマーが開発サイクルや言語の学習曲線を考慮しなければならないのとは異なり、Vibe Codingの開発では、言語やフレームワークなどを選択する際に、パフォーマンス、組み合わせ、そして適用シーンをより重視します。もはや特定の言語に縛られることなく、最適なものをどのように選択するかが、むしろ難しさであり知恵の見せ所です。
-ここでは、現在主流の開発言語の紹介と比較、そしてそれらがAI支援開発のシナリオでどのように応用されるかについて提供します。
-
-Vibe Codingを行う際は、コードの内容自体に気を取られるのではなく、開発全体のアーキテクチャ、フレームワーク、言語、またはLLMアプリケーションの長所と短所、そして選択肢を理解しているかどうかに、より重点を置くべきです。
-
-商業アプリケーションでは、Vibe Codingはプロトタイプの迅速な納品（機能確認）は可能ですが、最終的なコードの納品は困難です。
-個人利用では、個人用または一回限りのプログラムを考えずに完成させることができます。個人レベルで公開可能なコンテンツの開発を補助することができます。
-
-#### 🌐 Web開発
-
-「ウェブサイトを作って」というのは、多くの人がVibe Codingに足を踏み入れる第一歩でしょう。方向性と内容を説明するだけで、LLMはウェブサイト全体のコードを生成し始め、既存の他人のサイトを模倣して複製することさえ難しくありません。しかし、それは一体どんなフレームワークで、どんな言語のサイトなのでしょうか？ウェブアプリケーションの主流言語やフレームワークについて少しでも知識があれば、指示を出す際により良い選択ができるはずです。
-📄 **[Web開発ガイド](docs_jp/web-development.md)** - どんな言語が使える？フロントエンドとバックエンドの選択肢を素早く比較
-📄 **[Web展開ガイド](docs_jp/web-deployment-guide.md)** - なぜ生成されるのがHTMLじゃないの？クライアントサイドレンダリングって何？どんなフレームワークがあるの？
-📄 **[Webアプリケーションガイド](docs_jp/web-applications.md)** - Webアプリケーションにはどんなものがある？どんなフレームワークで作れる？
-📄 **[JavaScriptアニメーションライブラリガイド](docs_jp/js-animation-libraries.md)** - LLMが生成したページのスタイルがダサくて単調？JSライブラリを読ませて一気にカッコよくしよう！
-
-#### 📱 モバイル開発
-
-スマホやiPadが手放せない今、PCのソフトウェアをモバイルに移植したい、あるいは特定の機能に合うアプリが見つからないなど、モバイルアプリは実はPC向けよりも個人に合わせたカスタマイズが必要です。以前はカスタマイズのコストを見積もることさえためらわれましたが、今ではかつてないほど簡単になりました。販売するかどうかは別として、個人利用の需要も非常に大きいです。
-📄 **[モバイル開発ガイド](docs_jp/mobile-development.md)** - ネイティブ、クロスプラットフォームのモバイル開発言語比較、ネイティブでしかできないことは？
-
-#### 💻 デスクトップ開発
-
-デスクトップソフトウェアの開発と聞くと壮大なことに聞こえますが、実は生活の至る所で、優れた、専門的で、的確にニーズを解決する小さなソフトウェアが必要です。レポート生成、財務管理、システム監視、単なる整理、システム強化、知識管理、カスタム計算、リマインダーソフトなど...。Claude Code Maxを使い始めてから、毎日新しい小さなツールが生まれていると言っても過言ではありません...
-📄 **[デスクトップ開発ガイド](docs_jp/desktop-development.md)** - デスクトップ開発言語の比較説明。
-
-#### ⚙️ システム管理
-
-コンピュータソフトウェアとは異なり、ファイルのバッチ処理、厳密なキーワード正規表現を使用したコンテンツの検索と抽出、ファイルの結合と分割、定期タスク、システム監視、自動バックアップ、トランスコーディングなど、非常に単純で反復性の高い作業は、最も基本的なシステム管理言語を使用して直接実現できます。
-📄 **[システム管理ガイド](docs_jp/system-management.md)** - システム管理言語ガイド - PowerShell/Bash/Pythonの異なるプラットフォームでの応用シーン、個人開発者の実務応用事例、AI支援によるシステム自動化
-
-#### 💎 汎用プログラミング言語
-
-📄 **[汎用プログラミング言語ガイド](docs_jp/general-programming.md)** - 汎用プログラミング言語分析 - Ruby/JavaのAI時代における位置づけ、なぜ個人開発者は専門化ツールを選ぶべきか、エンタープライズ開発と個人開発の技術選定の違い
-
-#### 🗄️ データベース、RAG
-
-📄 **[データベース選択ガイド](docs_jp/database-choice.md)** - データベース選択ガイド - MySQL/MongoDB/PostgreSQL/SQLiteの詳細比較、リレーショナルデータベース vs NoSQL vs ベクトルデータベース、AI支援開発時代のデータベース技術選定戦略
-
-**RAG構築ガイドシリーズ**：
-- 📄 **[RAGガイド（上巻）：基礎概念とデータ準備](docs_jp/rag-guide-part1-basics.md)** - RAGアーキテクチャ設計、5つのチャンキング戦略比較、Embeddingモデルの選択とファインチューニング
-- 📄 **[RAGガイド（中巻）：検索と生成](docs_jp/rag-guide-part2-retrieval.md)** - ベクトルインデックス技術、ハイブリッド検索、リランキングメカニズムと複数データベース検索の最適化
-- 📄 **[RAGガイド（下巻）：高度な応用](docs_jp/rag-guide-part3-advanced.md)** - 5つの高度なRAGバリアント、動的リランキングエンジンとエンタープライズレベルの競合解決戦略
-- 📄 **[RAGガイド（終巻）：性能評価、自動学習とシステムアップグレード](docs_jp/rag-guide-part4-optimization.md)** - 品質検証フレームワーク、3つの評価方法と自動化学習ループの設計
-
-#### 🤖 AI開発と統合
-
-📄 **[LLMモデル選択ガイド（未執筆）](docs_jp/llm-model-selection.md)** - LLMモデル選択ガイド
-📄 **[プロンプトエンジニアリングガイド（未執筆）](docs_jp/prompt-engineering.md)** - プロンプトエンジニアリング実践ガイド -
-📄 **[マルチモーダルAI開発ガイド（未執筆）](docs_jp/multimodal-ai-development.md)** - マルチモーダルAI開発ガイド - テキスト+画像+音声の統合、クロスモーダル応用シーン、マルチモーダルモデルの選択、実装事例分析
-📄 **[Vibe Codingデバッグ用メタプロンプト](docs_jp/vibe-coding-debug-meta-prompt.md)** - AI支援開発には避けられない、イライラするパターンがあります。これはAI開発ツールに読ませて、少し自制させるためのプロンプトです。
-📄 **[AI開発環境ガイド（未執筆）](docs_jp/ai-development-environment.md)** - AI支援開発環境の構築 - Claude Code/Cursor/GitHub Copilotなどのツールの詳細比較、ワークフローの最適化、ベストプラクティスの設定
-📄 **[AI支援セキュリティガイド（未執筆）](docs_jp/ai-assisted-security.md)** - AI支援コードセキュリティガイド - 自動化されたセキュリティスキャン、脆弱性の検出と修正、AI駆動のセキュリティ監査、データプライバシー保護戦略
-
-#### 🌐 実務のプログラミング開発におけるAI支援の問題点
-
-todo問題を解析する際、LLMは複数のtodoを統合する方法がわからず、重複したPRを生成する可能性があります。
-人間は絶えずタスクを分割し続けなければなりません。
-コーディングの思考方向とは逆に、コーディングは微小な部分から構築していくのに対し、AI支援プログラミングでは全体のフレームワークから常に分割していく必要があります。
-📄 **[伝統的な開発ワークフローとAI支援ワークフロー（未執筆）](docs_jp/ai-assisted-security.md)** - ボトムアップの構築からトップダウンの分解への思考転換、要求を効果的に分割する方法、AIへの過度な依存による技術的負債を回避する方法
-
-### 📝 知識管理と研究
-
-LLMがもたらした最大の革新は、人々が知識を獲得し内面化する方法を覆したことです。簡単な質問と連続した問いかけによって、正確な研究報告や情報を迅速に得られることは利点です。しかし同時に、「幻覚」によって偽情報が横行し、真偽を見分けて誤解を避けることが必須の新しいスキルとなったことは欠点です。
-利点を活かし害を避けながら、ノート、知識ベースの整理、研究、そして自動検索と結果のフィルタリングをどのように行うか？
-📄 **[個人の第二の脳の作成（未執筆）](docs_jp/xxx.md)**
-📄 **[研究アシスタントの構築（未執筆）](docs_jp/xxx.md)**
-📄 **[幻覚を減らす5つのモジュール（未執筆）](docs_jp/xxx.md)**
-📄 **[LLM情報生成パターンの改善（未執筆）](docs_jp/xxx.md)**
-📄 **[グラフ・可視化ツール完全ガイド](docs_jp/chart-visualization-tools.md)** - Mermaid、Draw.io、および各種コード駆動グラフ生成ツールの紹介と比較
-
-#### 🔍 データ収集と分析
-
-かの馬氏（特定の人物を指す隠語）は、LLMさえあれば、100年前の政府資料でさえ瞬時にデバッグし、不正を発見できることを世界に証明しました。AI支援の時代において、データ整理とマイニングの能力は爆発的に向上しています。同時に、ビッグデータのスクレイピングの難易度は下がり、LLMによって言語の壁は低くなり、コンテンツ生成も苦労しなくなりました。
-恐れるべきは、技術がないことではなく、アイデアがないことです。
-📄 **[ウェブスクレイピングとデータマイニング（未執筆）](docs_jp/xxx.md)** - Eコマースの価格監視、ソーシャルメディア分析、ニュース情報収集
-📄 **[API統合とデータ処理（未執筆）](docs_jp/xxx.md)** - マルチプラットフォームのデータ集約、自動レポート生成、データ可視化
-📄 **[コンテンツの自動化（未執筆）](docs_jp/xxx.md)** - ソーシャルメディアへの投稿、メールマーケティング、コンテンツ管理システム
-📄 **[AI駆動データ分析ガイド（未執筆）](docs_jp/ai-driven-data-analysis.md)** - AI駆動データ分析ガイド - LLMによるデータ解釈支援、自然言語でのデータベースクエリ、インテリジェントな洞察発見、マルチモーダルデータ分析技術、予測モデリングの自動化
-📄 **[高度なウェブスクレイピングガイド（未執筆）](docs_jp/advanced-web-scraping.md)** - 高度なスクレイピング技術ガイド - AI支援によるアンチスクレイピング突破、リアルタイムデータストリーム処理、多言語データ処理、インテリジェントなCAPTCHA認識、人間行動のシミュレーション
-📄 **[ビジネスインテリジェンス自動化ガイド（未執筆）](docs_jp/business-intelligence-automation.md)** - ビジネスインテリジェンス自動化ガイド - 競合分析の自動化、顧客行動分析、財務データ解釈、世論監視と分析、意思決定支援システム
-
-#### ⚙️ 日常の自動化
-
-ノーコード系のワークフロー自動化ツールが台頭したことは、人間がコンピュータの前で繰り返す作業が本当に多いことを証明しています。元々、オフィスオートメーションは厳格なプロセス設定に依存していましたが、ノーコード系がLLMを導入したことで、ウェブサイト上のいくつかのアイコンをドラッグ＆ドロップするだけでワークフローの設定が解決できるようになりました。Vibe Codingツールはさらに一歩進んで、オンラインサービスだけでなく、自分のコンピュータ内のタスクも自動化できます。しかも、方法に制限はなく、自分のニーズに合わせて必要なバッチ操作やプロセス化ツールをカスタマイズできます。
-
-📄 **[すぐに実現できるオフィスオートメーション（未執筆）](docs_jp/xxx.md)** - 会議議事録の整理と配布、メールのインテリジェントな分類と返信提案、カレンダーのインテリジェントなスケジュール調整と競合解決、請求書の自動認識と分類、経費精算プロセスの自動化、財務諸表の自動生成
-📄 **[すぐに実現できるソーシャルメディアオートメーション（未執筆）](docs_jp/xxx.md)** - ソーシャルメディアの投稿予約、コンテンツ素材の自動整理、多言語コンテンツの自動翻訳とローカライズ
-📄 **[既存サービスシステムとの連携（未執筆）](docs_jp/xxx.md)** - サードパーティサービスとの連携、Webhookによる自動トリガー、マイクロサービス間の自動調整
-
-**インテリジェント化のアップグレード**：
-- **RPAとAIの結合** - 従来のRPAツール（UiPath/Automation Anywhere）とLLMの統合、インテリジェントな意思決定の自動化、例外処理の自動化
-- **自己学習型自動化システム** - ユーザーの行動パターンに基づく自動化提案、異常検知と自動修正、パフォーマンス最適化の自動調整
-- **音声制御による自動化** - 自然言語コマンドの実行、音声から自動化スクリプトへの変換、音声制御による家庭とオフィスの統合
-- **予測的自動化** - 過去のデータに基づく需要予測、リソースの自動配分、インテリジェントなスケジューリングの最適化
-
-#### ⚙️ 映像・音声処理
-
-#### 🎮 創造性と実験
-
-まだまだできることはたくさんあります。特にゲーム分野では、現在AIとの統合が驚くほど少なく、平和な時間が流れています……（笑）
-
-- **小規模なゲームとインタラクティブなアプリケーション** - 簡単なゲーム開発、インタラクティブアート、データ可視化
-- **IoTとハードウェア制御** - スマートホーム、センサーデータ処理、自動化制御
-- **機械学習の実験** - 小規模なAIモデル、画像認識、自然言語処理
-
-## 🎯 プロジェクト目標
-
-## 🤝 貢献ガイドライン
-
-IssueやPull Requestを提出して、このプロジェクトの改善にご協力ください！
-
-## 📝 ライセンス
 
 このプロジェクトはMITライセンスの下でライセンスされています - 詳細は[LICENSE](LICENSE)ファイルをご覧ください。
