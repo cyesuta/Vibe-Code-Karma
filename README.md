@@ -579,3 +579,5 @@ IssueやPull Requestを提出して、このプロジェクトの改善にご協
 このプロジェクトはMITライセンスの下でライセンスされています - 詳細は[LICENSE](LICENSE)ファイルをご覧ください。
 
 ![Visitor Count](https://cyesuta.goatcounter.com/count?p=/cyesuta/vibe-coding-karma/readme)
+
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fcyesuta%2FVibe-Code-Karma&countColor=%23263759)
