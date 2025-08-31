@@ -253,6 +253,7 @@ Vibe Coding在商業應用的時候，能夠快速完成原型的交付（功能
 #### 🌐 Web 開發
 
 「幫我做個網站」相信是許多人踏入Vibe Coding的第一步，只要說明方向和內容，LLM就會開始生成一整個網站的代碼，甚至要它模仿現有其他的人的網站復刻一個也毫無難度。但它到底做了一個什麼框架、什麼語言的網站呢？如果對網路應用的主流語言、框架有一些認識，相信能夠在指揮的時候有更好的選擇。
+
 📄 **[Web 開發指南](docs_tc/web-development.md)** - 有哪些語言可用？快速對比前端、後端選擇
 
 📄 **[Web 部署指南](docs_tc/web-deployment-guide.md)** - 為什麼生成的不是HTML？什麼是客戶端渲染？都有哪些框架？
@@ -265,18 +266,21 @@ Vibe Coding在商業應用的時候，能夠快速完成原型的交付（功能
 #### 📱 移動開發
 
 手機、iPad不離手，無論是電腦的軟體要複製到移動端、還是有個功能就是找不到適合的App，移動端的App其實比電腦端更需要按人定制，以前對定制的成本根本不敢估計，現在變得前所未有的簡單。先不論要不要上線賣錢，自己用需求也普遍很大。
+
 📄 **[移動開發指南](docs_tc/mobile-development.md)** - 原生、跨平台移動開發語言對比、哪些只有原生可以做？
 
 
 #### 💻 桌面開發
 
 開發桌面軟體，聽起來很偉大，其實生活隨處可見都需要好的、垂直的、精準解決需求的小軟體。無論是報表生成、財務管理、系統監控、只是整理、系統增強、知識管理、定制計算、提醒軟體等等……。可以說自從我開了Claude Code Max之後，每天都有小的新工具被生出來……
+
 📄 **[桌面開發指南](docs_tc/desktop-development.md)** - 桌面開發語言對比說明。
 
 
 #### ⚙️ 系統管理
 
 不同於電腦軟體，有一些非常單純、重複性高的作業，比如檔案批處理、利用嚴格關鍵字正則表達式檢索內容提取、文件合併分割、定時任務、系統監控、自動備份、轉碼等等都可以直接通過最基礎的系統管理語言來實現。
+
 📄 **[系統管理指南](docs_tc/system-management.md)** - 系統管理語言指南 - PowerShell/Bash/Python 在不同平台的應用場景、個人開發者實務應用案例、AI 輔助系統自動化
 
 
@@ -291,6 +295,7 @@ Vibe Coding在商業應用的時候，能夠快速完成原型的交付（功能
 
 
 **RAG建製指南系列**：
+
 - 📄 **[RAG指南（上集）：基礎概念與資料準備](docs_tc/rag-guide-part1-basics.md)** - RAG架構設計、五種分塊策略對比、Embedding模型選擇與微調
 
 - 📄 **[RAG指南（中集）：檢索與生成](docs_tc/rag-guide-part2-retrieval.md)** - 向量索引技術、混合搜尋、重排序機制與多資料庫檢索優化
@@ -302,7 +307,7 @@ Vibe Coding在商業應用的時候，能夠快速完成原型的交付（功能
 
 #### 🤖 AI開發與整合
 
-📄 **[LLM 模型選擇指南（還沒寫）](docs_tc/llm-model-selection.md)** - LLM模型選擇指南
+📄 **[LLM 模型選擇指南](docs_tc/llm-model-selection.md)** - LLM模型選擇指南
 
 📄 **[提示工程指南（還沒寫）](docs_tc/prompt-engineering.md)** - 提示工程實戰指南 -
 
@@ -310,9 +315,9 @@ Vibe Coding在商業應用的時候，能夠快速完成原型的交付（功能
 
 📄 **[Vibe Coding 除錯元提示](docs_tc/vibe-coding-debug-meta-prompt.md)** - AI協助開發的時候還是有一些無法避免的、令人惱火的規律，這是讓AI開發工具讀了之後可以稍微管住自己手的prompt
 
-📄 **[AI 開發環境指南（還沒寫）](docs_tc/ai-development-environment.md)** - AI輔助開發環境配置 - Claude Code/Cursor/GitHub Copilot等工具深度對比、工作流優化、最佳實踐配置
+📄 **[AI 開發環境指南](docs_tc/ai-development-environment.md)** - AI輔助開發環境配置 - Claude Code/Cursor/GitHub Copilot等工具深度對比、工作流優化、最佳實踐配置
 
-📄 **[AI 輔助安全指南（還沒寫）](docs_tc/ai-assisted-security.md)** - AI輔助代碼安全指南 - 自動化安全掃描、漏洞檢測與修復、AI驅動的安全審查、數據隱私保護策略
+📄 **[AI 輔助安全指南](docs_tc/ai-assisted-security.md)** - AI輔助代碼安全指南 - 自動化安全掃描、漏洞檢測與修復、AI驅動的安全審查、數據隱私保護策略
 
 
 #### 🌐 在實務程式開發的時候AI輔助的問題
@@ -327,11 +332,11 @@ Vibe Coding在商業應用的時候，能夠快速完成原型的交付（功能
 
 LLM帶來的最大革新是顛覆人對知識獲取和內化的方式，能夠通過簡易的提問和連續追問快速獲得準確的研究報告和資訊，這是利。但同時也因為「幻覺」讓假資料橫行，如何區分真偽避免被誤導又成為了必須學習的新技能，此為弊。
 要如何趨利避害去完成筆記、知識庫的整理、研究和自動搜索但篩選結果？
-📄 **[個人第二大腦創建（還沒寫）](docs_tc/xxx.md)** 
-📄 **[研究助手構建（還沒寫）](docs_tc/xxx.md)** 
-📄 **[降低幻覺的五個模塊（還沒寫）](docs_tc/xxx.md)** 
-📄 **[改善LLM資訊生成模式（還沒寫）](docs_tc/xxx.md)** 
-📄 **[圖表與視覺化工具完全指南](docs_tc/chart-visualization-tools.md)** - Mermaid及Draw.io以及各種代碼驅動圖表生成介紹和對比
+- 📄 **[個人第二大腦創建（還沒寫）](docs_tc/xxx.md)** 
+- 📄 **[研究助手構建（還沒寫）](docs_tc/xxx.md)** 
+- 📄 **[降低幻覺的五個模塊（還沒寫）](docs_tc/xxx.md)** 
+- 📄 **[改善LLM資訊生成模式（還沒寫）](docs_tc/xxx.md)** 
+- 📄 **[圖表與視覺化工具完全指南](docs_tc/chart-visualization-tools.md)** - Mermaid及Draw.io以及各種代碼驅動圖表生成介紹和對比
 
 
 #### 🔍 數據收集與分析
@@ -572,3 +577,5 @@ IssueやPull Requestを提出して、このプロジェクトの改善にご協
 
 
 このプロジェクトはMITライセンスの下でライセンスされています - 詳細は[LICENSE](LICENSE)ファイルをご覧ください。
+
+![Visitor Count](https://cyesuta.goatcounter.com/count?p=/cyesuta/vibe-coding-karma/readme)
