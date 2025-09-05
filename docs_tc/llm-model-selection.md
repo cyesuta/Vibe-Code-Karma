@@ -47,6 +47,10 @@
 - **模型列表及價格**: [百煉模型價格表](https://help.aliyun.com/zh/model-studio/models)
 - **通義產品頁**: [阿里雲通義](https://cn.aliyun.com/product/tongyi)
 
+### 火山引擎 (字節跳動)
+
+- **官方網站**: [火山引擎](https://www.volcengine.com/)
+
 ## 🔧 LLM 模型集成 API
 
 ### SiliconFlow (硅基流動)

@@ -62,6 +62,23 @@
 
 - **Domo AI**: [AI 影片生成](https://domoai.app/)
 - **Kling AI**: [可靈 AI 影片](https://app.klingai.com/cn/)
+- **Pollo AI**: [AI 影片創作平台](https://pollo.ai/)
+- **RunwayML**: [AI 創意工具套件](https://runwayml.com/)
+- **Luma Dream Machine**: [AI 影片生成工具](https://dream-machine.lumalabs.ai/)
+
+## 🎨 圖片生成服務
+
+- **星流 Art**: [AI 圖片生成平台](https://www.xingliu.art/)
+- **Liblib Art**: [AI 創作社區](https://www.liblib.art/)
+- **PicWish**: [AI 圖片編輯工具](https://picwish.com/)
+
+## 🎮 3D 模型生成服務
+
+- **Meshy**: [AI 3D 模型生成](https://www.meshy.ai/)
+
+## 🌍 世界模型與遊戲生成
+
+- **Google DeepMind Genie 3**: [世界模型前沿技術](https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/)
 
 ## 📚 知識庫與 RAG 服務
 
@@ -94,6 +111,7 @@
 - **n8n 模板庫**: [Workflow Templates](https://n8n.io/workflows/)
 - **n8n LINE Bot 教學**: [LINE Message API 整合](https://www.darrelltw.com/n8n-line-message-api/)
 - **n8n 代碼輔助**: [DeepWiki](https://deepwiki.com/)
+- **n8n 技術文檔**: [DeepWiki n8n Documentation](https://deepwiki.com/n8n-io/n8n)
 - **n8n 備份指南**: [Zeabur 備份教學](https://raymondhouch.com/lifehacker/digital-workflow/zeabur-n8n-backup-guide/)
 
 ### 整合工具
